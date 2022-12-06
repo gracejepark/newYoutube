@@ -33,6 +33,18 @@ export default class Youtube {
       }})
   }
 
+  async relatedVideos(id) {
+    return this.apiClient
+      .related({params: {
+        part: 'snippet',
+        relatedToVideoId: id,
+        type: 'video',
+        maxResults: 20,
+        regionCode: 'KR'
+      }})
+      .then((res) => res.data.items)
+  }
+
   async #searchByKeyword(keyword) {
     return this.apiClient
       .search({ params:{
