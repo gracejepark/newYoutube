@@ -1,0 +1,16 @@
+.box {
+  display: inline-flex;
+  margin-top: 60px;
+  padding-left: 30px;
+  padding-left: 215px;
+}
+
+.videosUl {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 15px;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  margin: 0px;
+}

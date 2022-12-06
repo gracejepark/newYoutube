@@ -1,0 +1,81 @@
+.header {
+  width: 100vw;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0F0F0F;
+}
+
+
+
+.box1 {
+  display: flex;
+  padding-left: 20px;
+}
+
+.menu {
+  background: transparent;
+  border: none;
+}
+
+.youtube {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+
+
+.box2 {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 540px;
+  height: 40px;
+  background-color: #151515;
+  border: 1px solid #323232;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 0px;
+  padding-left: 16px;
+  font-size: 16px;
+  color: white;
+}
+
+.search {
+  width: 63px;
+  height: 40px;
+  color: white;
+  background-color: #232323;
+  border: 1px solid #323232;
+  border-left: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-left: 18px;
+}
+
+.mike {
+  background-color: #151515;
+  margin-left: 10px;
+  border-radius: 40px;
+}
+
+
+.box3 {
+  width: 156px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 20px;
+}

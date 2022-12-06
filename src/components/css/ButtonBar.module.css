@@ -1,0 +1,11 @@
+.buttonBar {
+  width: 100%;
+  height: 56px;
+  padding-left: 42px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 56px;
+  left: 215px;
+  background-color: #0F0F0F;
+}

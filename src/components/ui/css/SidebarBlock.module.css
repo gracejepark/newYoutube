@@ -1,0 +1,13 @@
+.liBox {
+  height: 39px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title {
+  padding-left: 23px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}

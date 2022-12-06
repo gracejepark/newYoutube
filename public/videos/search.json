@@ -1,0 +1,1360 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "5wIpUwr4iYDpqd8AQYY9GFowQ_Y",
+    "nextPageToken": "CCgQAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 40
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Sm--spHrmNnyBL2JT0YIYPl8sy4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zugAhfd2r0g"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T08:58:09Z",
+                "channelId": "UCaO6TYtlC8U5ttz62hTrZgg",
+                "title": "ITZY “Cheshire” M/V @ITZY",
+                "description": "ITZY “Cheshire” M/V TITLE http://kko.to/OACKMtlBJg PRE-SAVE & PRE-ORDER https://ITZY.lnk.to/CHESHIRE [ITZY Official] ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zugAhfd2r0g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zugAhfd2r0g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zugAhfd2r0g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "JYP Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T08:58:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tIHPSfUScyRJ1A_5dBdA4ylGQNs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hkUhIqifz9g"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T19:40:23Z",
+                "channelId": "UCxzxHLa3MJIVGeJhmgSO4Jg",
+                "title": "ranking kpop comebacks/debuts of november 2022",
+                "description": "tags ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hkUhIqifz9g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hkUhIqifz9g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hkUhIqifz9g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "yoshified",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T19:40:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "7ByQvkBe7Plch3v_ESnZnTzYrKk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "z8n6Tf-oJ7g"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T13:14:14Z",
+                "channelId": "UCrOcXGvpEoykKXFm8uJEOBg",
+                "title": "Female Kpop idols with the most Fluctuating Visual",
+                "description": "Female Kpop idols with the most Fluctuating Visual More often than not, people often think that whether one could be titled a ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/z8n6Tf-oJ7g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/z8n6Tf-oJ7g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/z8n6Tf-oJ7g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "K-pop Zone",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T13:14:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mgKRLjAXKyAzHl9fsIZTA2hL_4Q",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ITy6fRAahFA"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T10:00:08Z",
+                "channelId": "UC48SXkW1x5OxFFCxq9R2XcA",
+                "title": "K-pop idols that DOESN&#39;T LOOK GOOD with BANGS ❌️ #kpop #shorts #kpopedit #itzy #aespa #nmixx #ive",
+                "description": "HyunA DAWN Break up MAMA AWARDS 2022 collab stage rookie cheer up Melon music awards MMA 2022 reaction rookie of ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ITy6fRAahFA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ITy6fRAahFA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ITy6fRAahFA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "WINGYU",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T10:00:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "jhnYNgVgGipF4f8rVn7KIsYwj04",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ut1OzEVUiM4"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-28T09:00:14Z",
+                "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+                "title": "Red Velvet 레드벨벳 &#39;Birthday&#39; MV",
+                "description": "Red Velvet's mini album \"'The ReVe Festival 2022 - Birthday'\" is out! Listen and download on your favorite platform: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ut1OzEVUiM4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ut1OzEVUiM4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ut1OzEVUiM4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SMTOWN",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-28T09:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "CgNtOl0G7mYxRSOXE96aRXYavD4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rtZj2FgHllI"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T17:00:35Z",
+                "channelId": "UCAXsJqkA47v0NTJGdtOE69A",
+                "title": "&quot;I am gay&quot; What if your favorite Kpop idol tells his sexual orientation? (ft. Holland)",
+                "description": "Ready to meet our first Gay Kpop Artist! #giggle #korean #Kpop #Gay #Holland ------------------------- Official Giggle :: @giggle_kr​ ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rtZj2FgHllI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rtZj2FgHllI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rtZj2FgHllI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "GIGGLE",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T17:00:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "y4Ny-0FWOnjJWSx4t4WGT92a11c",
+            "id": {
+                "kind": "youtube#channel",
+                "channelId": "UCbD8EppRX3ZwJSou-TVo90A"
+            },
+            "snippet": {
+                "publishedAt": "2006-03-09T02:12:08Z",
+                "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+                "title": "Mnet K-POP",
+                "description": "K-POP Channel of World's No.1 Music Channel Mnet Watch the latest and hottest K-POP contents on ✨Mnet K-POP✨ cCJ ENM.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/ytc/AMLnZu99y-1jtfLoATFaHVHv2AjIVTXYfXpnDovjUiFqxPc=s88-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/ytc/AMLnZu99y-1jtfLoATFaHVHv2AjIVTXYfXpnDovjUiFqxPc=s240-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/ytc/AMLnZu99y-1jtfLoATFaHVHv2AjIVTXYfXpnDovjUiFqxPc=s800-c-k-c0xffffffff-no-rj-mo"
+                    }
+                },
+                "channelTitle": "Mnet K-POP",
+                "liveBroadcastContent": "upcoming",
+                "publishTime": "2006-03-09T02:12:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "skPittMJ2zozxw8_c-ALPi-_o80",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "joTrsDAj8Yw"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T10:13:03Z",
+                "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+                "title": "[2022 MAMA] NewJeans - Cookie+Attention+Hurt+Hype Boy (MAMA ver) | Mnet 221130 방송",
+                "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 'NewFriends' Cookie+Attention+Hurt+Hype Boy (MAMA ver) by ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/joTrsDAj8Yw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/joTrsDAj8Yw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/joTrsDAj8Yw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Mnet K-POP",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T10:13:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "dGfTYaK_7WU_aGAikXCbHx-Ae3E",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8ZyVl-a8hXk"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T12:44:35Z",
+                "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+                "title": "[2022 MAMA] j-hope - MORE + Arson | Mnet 221130 방송",
+                "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 'I'm your HOPE'' MORE + Arson by j-hope in 2022 MAMA AWARDS ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8ZyVl-a8hXk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8ZyVl-a8hXk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8ZyVl-a8hXk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Mnet K-POP",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T12:44:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "4nxsdfFEEIg8Ic9cvCV9NDdsapo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "YaR-_aFdVxg"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-16T08:00:11Z",
+                "channelId": "UCHWfAuT1j7bTLXTIBcY_l6w",
+                "title": "NEW K-POP SONGS | NOVEMBER 2022 (WEEK 3)",
+                "description": "This week we have new #KPOP songs from #LESSERAFIM, #TREASURE, #VICTON, #XdinaryHeroes, #AleXa, #VERIVERY, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YaR-_aFdVxg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YaR-_aFdVxg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YaR-_aFdVxg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "K-Ville Entertainment",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-16T08:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Ez4ie66fCTDf0VY_ZBRA0IGrJU8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KiFjmiMQsY0"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T19:00:07Z",
+                "channelId": "UCo6ZvocTVSTq29AyvFGi2Pw",
+                "title": "November Kpop comeback ranking | 2022",
+                "description": "thanks for watching! watch in the highest quality for the best experience! Don't forget to like & subscribe if you enjoy my videos ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KiFjmiMQsY0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KiFjmiMQsY0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KiFjmiMQsY0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NoodlesMiyeon",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T19:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "oBpHOmneJyida_ScWFMOcRm0siU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "DBvpYum2zeg"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T11:26:46Z",
+                "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+                "title": "[2022 MAMA] (G)I-DLE - MY BAG | Mnet 221130 방송",
+                "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f ''WE NEVER DIE' MY BAG by (G)I-DLE in 2022 MAMA AWARDS ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DBvpYum2zeg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DBvpYum2zeg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DBvpYum2zeg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Mnet K-POP",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T11:26:46Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "8yhce7fTwrr5VwywdJ6FwOQSILA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UEh1fbWQWUo"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T14:30:10Z",
+                "channelId": "UCD4MsiIRgQNHsGl6qYJENAg",
+                "title": "CAN YOU FIND THE KPOP IDOLS BY THEIR EYES? 🔎👀 | KPOP EYES QUIZ 🎮",
+                "description": "Kpop Idol Quiz | Guess the Kpop Group From Their Eyes? How many right answers have you got? Comment your score ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UEh1fbWQWUo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UEh1fbWQWUo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UEh1fbWQWUo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "K-Playtime",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T14:30:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5ThlrMnL9ECLJ8mFtYy3k6pYHYo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "PUp8ziTgrCI"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T17:00:13Z",
+                "channelId": "UCoVqlXtSfb4TMa-Z_qmGi-A",
+                "title": "IL FAUT ARRETER LE CONTENU KPOP TOXIQUE &quot;PRO ANA&quot; SUR TIKTOK",
+                "description": "Nouvelle vidéo où on parle d'un sujet important que j'ai pu voir surgir ces derniers mois, j'espère que ça vous plaira et bien sur ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PUp8ziTgrCI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PUp8ziTgrCI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PUp8ziTgrCI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "UrbanUnicorn",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T17:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "kfE8NPvQ-haSUY0T-jGY-mfM0E0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gMpPoEotiZc"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T16:38:21Z",
+                "channelId": "UCDOrGwAT0RQZ4mEZ2AU_0oA",
+                "title": "KPOP RANDOM DANCE // ICONIC SONGS",
+                "description": "GOOD LUCK ☆ Intro Name song - Run2U by StayC ▪︎⚠️ No copyright infrigement intended⚠️ ▪︎⚠️I don't own any of ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gMpPoEotiZc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gMpPoEotiZc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gMpPoEotiZc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "♡ Minnie Random ♡",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T16:38:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lY3hN5QiMyKRXXbYT6eQw7ra-P0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "WZPLefjiAZw"
+            },
+            "snippet": {
+                "publishedAt": "2020-10-23T16:49:44Z",
+                "channelId": "UCfnXVc0GyV0sG3zi-3VgtxA",
+                "title": "▽◦◦▽🤍 KPOP PLAYLIST 2020 🤍▽◦◦▽",
+                "description": "KPOP Playlist - ITZY, BTS, Somi, Stray Kids, Blackpink, Seventeen, MAMAMOO, Twice, Red Velvet, EVERGLOW... All rights ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WZPLefjiAZw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WZPLefjiAZw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WZPLefjiAZw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Kpop. Lyrics",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-10-23T16:49:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "N_Oxu1JMvbfXrv7cL7sgZnkXpTM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Szl2uudOnmg"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-26T13:00:28Z",
+                "channelId": "UCiu1veej2H_LOfVp0at5pNw",
+                "title": "Funniest kpop tiktoks to lough at for 20 minutes straight.",
+                "description": "kpop merch here https://bit.ly/KpopGrungeKpopMerch Use code: kpopgrunge for Extra 10% off kpop. FTC Disclaimer- this video ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Szl2uudOnmg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Szl2uudOnmg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Szl2uudOnmg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KpopGrunge",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-26T13:00:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "uY6ceColjLuiR4vCpfIy8WM1-ww",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ksxd9_nGq-8"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T11:30:08Z",
+                "channelId": "UC4htdO0m3KsA1I_nB5JAR_g",
+                "title": "[KPOP IN PUBLIC] BTS (방탄소년단) &quot;RUN BTS&quot; (달려라 방탄) Dance Cover // Australia // HORIZON",
+                "description": "[KPOP IN PUBLIC] BTS (방탄소년단) \"RUN BTS\" (달려라 방탄) Dance Cover // Australia // HORIZON Run bulletproof, run, yeah ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ksxd9_nGq-8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ksxd9_nGq-8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ksxd9_nGq-8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HORIZON",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T11:30:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "eZmJmg09ysgJwVwpOLhLXt8Kmk8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MeTzG_Hsb8A"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-20T18:00:14Z",
+                "channelId": "UCZQ0XPE7wxMafUf8dIHOxgQ",
+                "title": "KPOP body culture is the grossest thing i&#39;ve seen in a long time.",
+                "description": "KPOP is awesome. The idols are beyond talented, gorgeous and successful. But who is looking after their mental & physical ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MeTzG_Hsb8A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MeTzG_Hsb8A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MeTzG_Hsb8A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Stephanie Lange",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-20T18:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ASHd6xoeuIkskI0W4I7UWQ2aFbU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "a8Mo-YgbfXs"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-04T23:00:00Z",
+                "channelId": "UCq6BA4_EkKchQPe5GitOnEA",
+                "title": "Kpop Playlist [Playlist Made With You pt. 8]",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/a8Mo-YgbfXs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/a8Mo-YgbfXs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/a8Mo-YgbfXs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KPlaylists",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-04T23:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "1k0-U7XJ9gMfAAmtVqR7GzmSX2A",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "tlRFllOMmQA"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T17:00:36Z",
+                "channelId": "UCtsJgv4XcPxnSGIdd-_Gazg",
+                "title": "[KPOP IN PUBLIC SIDE CAM] NEW JEANS (뉴진스) - &#39;Hype Boy&#39; Dance Cover by KONNECT DMV | Washington D.C.",
+                "description": "[KPOP IN PUBLIC SIDE CAM] NEW JEANS (뉴진스) - 'Hype Boy' Dance Cover by KONNECT DMV | Washington D.C. Enjoy our ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/tlRFllOMmQA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/tlRFllOMmQA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/tlRFllOMmQA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KONNECT DMV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T17:00:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "TGunKHD0AbsdvWPn8qpEZ8-cN60",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9sohjz9R310"
+            },
+            "snippet": {
+                "publishedAt": "2022-09-16T11:15:00Z",
+                "channelId": "UCJ7UbG9WzOblVCSshJCkI5Q",
+                "title": "KPOP PLAYLIST 2022 NEW | KPOP PLAYLIST 2022 GIRLGROUP PART 2 | 케이팝 플레이리스트 2022 NEW",
+                "description": "Thankyou for watching Please Like and Share this video!! Don't forget to SUBSCRIBE this channel guys ⚠️ We ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9sohjz9R310/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9sohjz9R310/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9sohjz9R310/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Daisy18",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-09-16T11:15:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "35TVh8nFixu2jS1tWFUBV4a2-_A",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pyf8cbqyfPs"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-16T14:58:08Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "LE SSERAFIM (르세라핌) &#39;ANTIFRAGILE&#39; OFFICIAL M/V",
+                "description": "Creative Director : NU KIM Visual Creative : Yujoo Kim, Gabriel Cho, Yoon Cho, Sungwoong Moon A&R : Kyuyoung Kim, Sewon ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pyf8cbqyfPs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pyf8cbqyfPs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pyf8cbqyfPs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-16T14:58:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "sqT-xA2CT-eFh6Flylb-YqWtkn0",
+            "id": {
+                "kind": "youtube#channel",
+                "channelId": "UCX9evQpYIiARsXmvs2EXa3A"
+            },
+            "snippet": {
+                "publishedAt": "2014-01-02T01:13:27Z",
+                "channelId": "UCX9evQpYIiARsXmvs2EXa3A",
+                "title": "Kpop Music",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/ytc/AMLnZu99PDwBbvvOd78bbMyuEP7tf_g9TEBQpZWxwxjOAA=s88-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/ytc/AMLnZu99PDwBbvvOd78bbMyuEP7tf_g9TEBQpZWxwxjOAA=s240-c-k-c0xffffffff-no-rj-mo"
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/ytc/AMLnZu99PDwBbvvOd78bbMyuEP7tf_g9TEBQpZWxwxjOAA=s800-c-k-c0xffffffff-no-rj-mo"
+                    }
+                },
+                "channelTitle": "Kpop Music",
+                "liveBroadcastContent": "none",
+                "publishTime": "2014-01-02T01:13:27Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6EhsJjicRwElhg1xLXXCSHKbRlM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GGJghgxP8LA"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-29T12:58:10Z",
+                "channelId": "UCZ8gB5qcx1U5olOcswG8Vzw",
+                "title": "[KPOP IN PUBLIC] IZ*ONE (아이즈원) - ‘La Vie en Rose’ Dance Cover by MAGIC CIRCLE from Australia |",
+                "description": "Hey MC Fam is it Jordie and I am here with a special cover. I present to you my class of students that performed with me at our ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GGJghgxP8LA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GGJghgxP8LA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GGJghgxP8LA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Magic Circle",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-29T12:58:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bAiB-ADIVRCkPEqplJyqe3ctBtA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Sj4nIQSHnQo"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-29T09:51:37Z",
+                "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+                "title": "[2022 MAMA] JEON SOMI X LEEJUNG LEE - Worldwide Fans&#39; Choice 후보곡 | Mnet 221129 방송",
+                "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 'The New Passion' WORLDWIDE FANS' CHOICE 후보곡 by JEON ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Sj4nIQSHnQo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Sj4nIQSHnQo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Sj4nIQSHnQo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Mnet K-POP",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-29T09:51:37Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Q24QiDO-LPA8QGjyWAYggFP3B78",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "IJks7TIDfnk"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-29T12:01:31Z",
+                "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+                "title": "[2022 MAMA] IVE&amp;Kep1er&amp;NMIXX&amp;LESSERAFIM&amp;NewJeans-ELEVEN+WADADA+O.O+FEARLESS+HypeBoy | Mnet 221129 방송",
+                "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 'LINNK the next generation' ELEVEN + WADADA + O.O + FEARLESS ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IJks7TIDfnk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IJks7TIDfnk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IJks7TIDfnk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Mnet K-POP",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-29T12:01:31Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "CHVY06zoJiMKKgflQF0fZJVJwGw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "gdZLi9oWNZg"
+            },
+            "snippet": {
+                "publishedAt": "2020-08-21T03:58:10Z",
+                "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+                "title": "BTS (방탄소년단) &#39;Dynamite&#39; Official MV",
+                "description": "BTS (방탄소년단) 'Dynamite' Official MV Credits: Director: Yong Seok Choi (Lumpens) Assistant Director: Jihye Yoon (Lumpens) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "HYBE LABELS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-08-21T03:58:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OPfYglf77cwmBjSPaZbJbQeni0A",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "tZamgEg4NPo"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-29T11:19:29Z",
+                "channelId": "UCC_u-ZlDq80-fEJhYUTiBUA",
+                "title": "KPOP RANDOM DANCE MIRRORED - Old &amp; New",
+                "description": "Enjoy and dance as crazy as you are !! Let's go !! I want to see everyone sweat ! Ho by the way.... hello ! Hope you have a good ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/tZamgEg4NPo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/tZamgEg4NPo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/tZamgEg4NPo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Astreen",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-29T11:19:29Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_HLC4JvO8Sk11ZK7KZTsu3FgC_0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "m1t2z5mjXsY"
+            },
+            "snippet": {
+                "publishedAt": "2021-07-26T17:28:00Z",
+                "channelId": "UCIO_GVN-_uOw33RYdu93ELA",
+                "title": "This edit is so damn cool! | kpop Tiktok edits",
+                "description": "kpopedits #tiktokedits #bts #txt #itzy #btsedits #shorts #youtubeshorts #btsshorts Video credit : ©YOIONESAN @Tiktok.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/m1t2z5mjXsY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/m1t2z5mjXsY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/m1t2z5mjXsY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "RI Ackerwoman",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-07-26T17:28:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5mDez2X4T2DafwZr-FHElirEJrY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "2FkEvwHmYfw"
+            },
+            "snippet": {
+                "publishedAt": "2022-08-23T14:02:00Z",
+                "channelId": "UCJYtYkiGldqX6Ne938j-k2g",
+                "title": "Incredible K-POP songs on The Voice 🤩",
+                "description": "What's your favorite K-POP song? Let us know in the comments below!   WATCH THE FULL PERFORMANCES: 00:00 1.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2FkEvwHmYfw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2FkEvwHmYfw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2FkEvwHmYfw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "The Voice Global",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-08-23T14:02:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OLFIiG6CiPF6E8EXJrhigonQNYI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fCO7f0SmrDc"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-17T09:04:23Z",
+                "channelId": "UCritGVo7pLJLUS8wEu32vow",
+                "title": "(여자)아이들((G)I-DLE) - &#39;Nxde&#39; Official Music Video",
+                "description": "(여자)아이들((G)I-DLE) - 'Nxde' Official Music Video Composed by 소연, Pop Time, Kako Lyrics by 소연 Arranged by Pop Time, ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fCO7f0SmrDc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fCO7f0SmrDc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fCO7f0SmrDc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "(G)I-DLE (여자)아이들 (Official YouTube Channel)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-17T09:04:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ayR0I_AuTTIyfcpUllsmyimhNQU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9BVsauq5WLo"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-29T13:00:07Z",
+                "channelId": "UCvXJTSQTKpZg1_DxpYyA9JQ",
+                "title": "[KPOP IN PUBLIC] LE SSERAFIM (르세라핌) - “ANTIFRAGILE” | TeamB Dance Cover by Bias Dance from Australia",
+                "description": "[Team B Version] Anti-fragile. More like fragile af The power this song holds is as we have 2 full teams covering it this ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9BVsauq5WLo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9BVsauq5WLo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9BVsauq5WLo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "UKC I Bias",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-29T13:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5f3kt0EZdhJNDiE_oz_05ow4TfA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "DUF-6IX6GkM"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-28T02:00:03Z",
+                "channelId": "UCd7yIRGoYvi1DUKIGTYvwFg",
+                "title": "The Era of Sasaengs Is OVER! New Law Protects Kpop Idols from Stalking",
+                "description": "hearing all the stories of kpop idols dealing with sasaengs is horrifying. finally, this is over now as south korea is putting into action ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DUF-6IX6GkM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DUF-6IX6GkM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DUF-6IX6GkM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "KOOKIELIT",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-28T02:00:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "9_RVoSOOxKc3cBRHZr4nSqCCqlM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "weqhhjkXSWc"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T10:48:41Z",
+                "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+                "title": "[2022 MAMA] IVE - LOVE DIVE+After LIKE | Mnet 221130 방송",
+                "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 'God is alIVE' LOVE DIVE+After LIKE by IVE in 2022 MAMA AWARDS ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/weqhhjkXSWc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/weqhhjkXSWc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/weqhhjkXSWc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Mnet K-POP",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T10:48:41Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "dDBtcjq5rCrVyirLCb6UKJxqub8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Z2g-CCO07zM"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T12:00:30Z",
+                "channelId": "UCV-USmyokF_1jXE7zbltfUg",
+                "title": "[ᴘʟᴀʏʟɪꜱᴛ] 💗KPOP Girl Group PLAYLIST to make you dance🎵",
+                "description": "hello eveyone! i hope you guys like this playlist :3 thank you for listening ! enjoy your day :D♡︎",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Z2g-CCO07zM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Z2g-CCO07zM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Z2g-CCO07zM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "blueberryBEE",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T12:00:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "VjU_XZ80OAhgOaT0yoYI_Ua8zSY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MLdKYCMI6fI"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T09:00:07Z",
+                "channelId": "UCe-By5MmXpEM2eaKLh8kuTA",
+                "title": "[KPOP IN PUBLIC] LE SSERAFIM (르세라핌) - &#39;ANTIFRAGILE&#39; Dance Cover by DARE Australia",
+                "description": "LeSserafim #Antifragile #kpopinpublic Dancers: CHAEWON - Vanessa (IG: vanessaxhg) EUNCHAE - Beverly (IG: @beverlyzx_) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MLdKYCMI6fI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MLdKYCMI6fI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MLdKYCMI6fI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Truth or DARE • Official",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T09:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "zxPdBQA8DGXLXesKly1LSAYVCyo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "auJNETnaURM"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-29T16:00:08Z",
+                "channelId": "UCmibhtHP7YAcRWNdTXjeIPA",
+                "title": "[KPOP IN PUBLIC] [ONE TAKE] TXT (투모로우바이투게더) ‘No Rules’ Dance Cover by OFFBRND",
+                "description": "\"Thank you for watching our cover! We worked very hard to live up to the expectations of this song, and we hope we did. A huge ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/auJNETnaURM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/auJNETnaURM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/auJNETnaURM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "OFFBRND",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-29T16:00:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ATRKbX36k5jICxV2zNOolJHdEWY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "kkM26Z-siG8"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T13:16:52Z",
+                "channelId": "UCUZk6lDZBy2_qXZfqyGuHeg",
+                "title": "GUESS THE KPOP SONG BY ONE SCENE || KPOP GAME",
+                "description": "8417 views Nov 3, 2022 Hey thanks for playing! Like and Subscribe for more kpop challenges! * I do NOT own any of these MVs ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kkM26Z-siG8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kkM26Z-siG8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kkM26Z-siG8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "MY KD7",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T13:16:52Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Yy3kq2_kl2eNqab1XcXKCxqPHxg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "0QKhAdN-keY"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-29T14:21:28Z",
+                "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+                "title": "[2022 MAMA] Stray Kids - a strange incident+VENOM(MAMA ver.)+I AM MANIAC+MANIAC | Mnet 221129 방송",
+                "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 'Do you want to be ODDINARY?' a strange incident + VENOM (MAMA ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0QKhAdN-keY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0QKhAdN-keY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0QKhAdN-keY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Mnet K-POP",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-29T14:21:28Z"
+            }
+        }
+    ]
+}

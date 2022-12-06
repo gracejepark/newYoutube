@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0F0F0F;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 56px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 code {
