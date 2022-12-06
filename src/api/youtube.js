@@ -10,7 +10,7 @@ export default class Youtube {
   async channelDetail(id) {
     return this.apiClient
       .channels({params: {
-        part: 'snippet,statistics',
+        part: `snippet,statistics`,
         id
       }})
       .then(res => res.data.items[0])
@@ -19,7 +19,7 @@ export default class Youtube {
   async videoDetail(id) {
     return this.apiClient
       .video({params: {
-        part: 'snippet,statistics',
+        part: `snippet,statistics`,
         id
       }})
       .then(res => res.data.items[0])
@@ -28,7 +28,7 @@ export default class Youtube {
   async commentThread(id) {
     return this.apiClient
       .comment({params: {
-        part: 'snippet,replies',
+        part: `snippet,replies`,
         videoId: id
       }})
   }
@@ -43,6 +43,7 @@ export default class Youtube {
         regionCode: 'KR'
       }})
       .then((res) => res.data.items)
+      .then(items => items.map(item => ({...item, id: item.id.videoId})));
   }
 
   async #searchByKeyword(keyword) {
@@ -60,7 +61,7 @@ export default class Youtube {
   async #mostPopular() {
     return this.apiClient
       .videos({ params:{
-          part: 'snippet,statistics',
+          part: `snippet,statistics`,
           maxResults: 40,
           chart: 'mostPopular',
           regionCode: 'KR'

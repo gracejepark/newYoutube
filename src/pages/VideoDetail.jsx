@@ -19,7 +19,6 @@ export default function VideoDetail() {
   const {data: comments} = useQuery(['comment', video.id], () => youtube.commentThread(video.id));
   const {data: relatedVideos} = useQuery(['relatedVideos', video.id], () => youtube.relatedVideos(video.id));
 
-  console.log(relatedVideos)
 
   const [text1] = useState([
     {title: '구독'}
