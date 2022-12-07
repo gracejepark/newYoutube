@@ -1,0 +1,78 @@
+.totalBox {
+    width: 370px;
+    position: fixed;
+    top: 87px;
+    left: 1080px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border-bottom: 0.5px solid gray
+}
+
+.input {
+    width: 250px;
+    height: 50px;
+    margin-left: 8px;
+    background: transparent;
+    border-bottom: 0.5px solid gray;
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.label {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 0.5px solid gray;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    background: transparent
+}
+
+
+.BigBtnBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.buttonBig {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.btnIcon {
+    margin-right: 10px
+}
+
+
+
+.SmallBtnBox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.buttonSmall {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: gray;
+}

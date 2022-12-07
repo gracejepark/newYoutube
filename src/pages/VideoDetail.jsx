@@ -1,7 +1,8 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { useLocation } from "react-router-dom"
 import { useQuery } from "@tanstack/react-query";
 import { useYoutubeApi } from "../context/YoutubeApiContext";
+import { addHistory } from "../api/firebase";
 
 import ChannelImg from "../components/ChannelImg";
 import DetailButton from "../components/ui/DetailButton";
@@ -18,6 +19,11 @@ export default function VideoDetail() {
   const {data: channelDetail} = useQuery(['channelDetail', video.snippet.channelId], () => youtube.channelDetail(video.snippet.channelId))
   const {data: comments} = useQuery(['comment', video.id], () => youtube.commentThread(video.id));
   const {data: relatedVideos} = useQuery(['relatedVideos', video.id], () => youtube.relatedVideos(video.id));
+
+  useEffect(() => {
+    const videoId = video.id
+    addHistory(videoId, video)
+  }, [video])
 
 
   const [text1] = useState([

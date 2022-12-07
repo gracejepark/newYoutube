@@ -11,7 +11,7 @@ export default function VideoCard({video}) {
   const navigate = useNavigate();
   
   return (
-    <li className={styles.totalBox} onClick={() => {navigate(`/youtube/watch/${id}`, {state: {video}})}}>
+    <li className={styles.totalBox} onClick={() => {return navigate(`/youtube/watch/${id}`, {state: {video}})}}>
       <div className={styles.imgBox}>
         <img className={styles.thumbnail} src={thumbnails.medium.url} alt={title} />
       </div>
