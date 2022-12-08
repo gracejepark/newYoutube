@@ -8,6 +8,11 @@
   position: fixed;
   top: 55px;
   left: 0;
+  -ms-overflow-style: none;
+}
+
+.sidebar::-webkit-scrollbar{
+  display:none;
 }
 
 .sidebarUl {
