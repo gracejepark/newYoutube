@@ -1,0 +1,109 @@
+.leftBox {
+    width: 360px;
+    height: 100%;
+    position: fixed;
+    top: 80px;
+    left: 260px;
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.backImg {
+    width: 500px;
+    height: 100%;
+    filter: blur(30px);
+    -webkit-filter: blur(30px);;
+}
+
+.leftBoxCont {
+    width: 360px;
+    height: 100%;
+    position: fixed;
+    top: 80px;
+    left: 260px;
+    border-radius: 15px;
+    background-image: linear-gradient(0deg, #0F0F0F 12%, #00ff0000)
+}
+
+.img {
+    max-width: 312px;
+    margin: 0 auto;
+    margin-top: 22px;
+    border-radius: 10px;
+}
+
+.title {
+    margin-top: 15px;
+    margin-left: 23px;
+    font-size: 29px;
+    font-weight: 900
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 23px;
+}
+
+.subText {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+
+.etcBtn {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 23px;
+    border-radius: 36px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.btnBox {
+    margin: 0 auto;
+    padding-left: 23px;
+    padding-right: 23px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600
+}
+
+.btnLeft {
+    width: 48%;
+    height: 38px;
+    padding-left: 27px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-radius: 38px;
+}
+
+.btnRight {
+    width: 48%;
+    height: 38px;
+    padding-left: 42px;
+    padding-right: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 38px;
+}
+
+.rightBox {
+    margin-top: 40px;
+    margin-left: 620px;
+}

@@ -1,0 +1,50 @@
+.totalBox {
+    height: 90px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.number {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+    color: gray
+}
+
+.img {
+    width: 160px;
+    height: 90px;
+    border-radius: 7px;
+}
+
+.textBox {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 12px;
+    padding-right: 50px;
+}
+
+.title {
+    font-size: 17px;
+    font-weight: 700;
+    max-height: 3.2rem;
+    line-height: 1.6rem;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.channel {
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+}

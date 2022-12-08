@@ -73,8 +73,8 @@ export default function VideoDetail() {
 
           <div className={styles.channelBtnBox}>
             {
-              text2.map((a) => {
-                return <DetailButton text={a.title} />
+              text2.map((a, i) => {
+                return <DetailButton videoId={video.id} video={video} text={a.title} key={i}/>
               })
             }
           </div>

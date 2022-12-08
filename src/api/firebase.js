@@ -21,3 +21,14 @@ export async function getHistory() {
       return Object.values(items);
     })
 }
+
+export async function addLiked(videoId, video) {
+  return set(ref(database, `liked/${videoId}`), {...video})
+}
+
+export async function getLiked() {
+  return get(ref(database, 'liked')).then(snapshot => {
+    const items = snapshot.val() || {};
+    return Object.values(items);
+  })
+}
