@@ -1,0 +1,54 @@
+.totalBox {
+    width: 860px;
+    margin-left: 340px;
+}
+
+.section {
+    margin-bottom: 30px;
+    border-bottom: 0.5px solid dimgray;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title2 {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.length {
+    font-size: 16px;
+    font-weight: 500;
+    color: dimgray
+}
+
+.viewMore {
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3ea6ff;
+}
+
+.cardBox {
+    display: flex;
+    flex-wrap: wrap;
+}
