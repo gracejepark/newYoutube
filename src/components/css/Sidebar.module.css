@@ -1,33 +1,49 @@
 .sidebar {
-  width: 215px;
-  height: 820px;
+  width: 240px;
+  height: 810px;
+  /* position: relative; */
   display: inline-flex;
   flex-direction: column;
   overflow-y: auto;
-  padding-left: 10px;
   position: fixed;
   top: 55px;
   left: 0;
   -ms-overflow-style: none;
+  z-index: 10;
 }
 
 .sidebar::-webkit-scrollbar{
-  display:none;
+  width: 9px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #717171;
+  border-radius: 9px;
 }
 
 .sidebarUl {
   list-style: none;
-  padding-left: 15px;
-  padding-top: 16px;
-  padding-bottom: 12px;
+  padding: 12px;
   margin: 0px;
   border-bottom: 1.3px solid #232323
 }
 
 .sidebarH3 {
-  padding: 0px;
-  padding-bottom: 10px;
+  padding: 6px 12px 4px;
   margin: 0px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
+}
+
+.hideBox {
+  width: 9px;
+  height: 100%;
+  position: fixed;
+  top: 56;
+  left: 231px;
+  background-color: #0F0F0F;
+}
+
+.sidebar:hover .hideBox {
+  opacity: 0;
 }

@@ -23,7 +23,7 @@ export default function ButtonBar() {
   return (
     <div className={styles.buttonBar}>
       {
-        title.map((a, i) => {return <BarButton title={a.title} key={i}/>})
+        title.map((a, i) => {return <BarButton title={a.title} num={i}/>})
       }
     </div>
   )

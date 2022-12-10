@@ -107,6 +107,7 @@ export default function Sidebar() {
           block5.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
         }
       </ul>
+      <div className={styles.hideBox}></div>
     </div>
   )
 }

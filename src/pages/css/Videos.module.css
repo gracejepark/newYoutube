@@ -1,16 +1,14 @@
 .box {
   display: inline-flex;
   margin-top: 60px;
-  padding-left: 30px;
-  padding-left: 215px;
+  padding-left: 240px;
+  position: relative;
 }
 
 .videosUl {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding-left: 15px;
-  padding-top: 16px;
-  padding-bottom: 12px;
+  padding: 16px 0px 12px 24px;
   margin: 0px;
 }

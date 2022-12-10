@@ -1,11 +1,13 @@
 .buttonBar {
   width: 100%;
   height: 56px;
-  padding-left: 42px;
+  padding-right: 16px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   position: fixed;
   top: 56px;
-  left: 215px;
+  left: 240px;
   background-color: #0F0F0F;
+  white-space: nowrap;
+  z-index: 1;
 }

@@ -1,6 +1,7 @@
 .header {
   width: 100vw;
   height: 56px;
+  padding: 0px 32px 0px 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,16 +9,21 @@
   top: 0;
   left: 0;
   background-color: #0F0F0F;
+  z-index: 10;
 }
 
 
 
 .box1 {
+  width: 169px;
   display: flex;
-  padding-left: 20px;
+  align-items: center;
 }
 
 .menu {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
   background: transparent;
   border: none;
 }
@@ -25,7 +31,7 @@
 .youtube {
   display: flex;
   align-items: center;
-  padding-left: 15px;
+  padding: 18px 16px;
   text-decoration: none;
   color: white;
   font-weight: 700;
@@ -36,46 +42,78 @@
 
 
 .box2 {
+  width: 728px;
+  height: 40px;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .input {
   width: 540px;
   height: 40px;
-  background-color: #151515;
-  border: 1px solid #323232;
+  background-color: hsl(0, 0%, 7%);
+  border: 1px solid hsl(0, 0%, 18.82%);
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  padding: 0px;
-  padding-left: 16px;
+  outline: none;
+  padding: 0px 4px 0px 16px;
+  margin-left: 32px;
   font-size: 16px;
-  color: white;
+  font-weight: 400;
+  color: hsla(0, 100%, 100%, 0.88);
 }
 
 .search {
-  width: 63px;
+  width: 64px;
   height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
   color: white;
   background-color: #232323;
   border: 1px solid #323232;
   border-left: none;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  padding-left: 18px;
+  padding: 1px 0px 1px 20px;
 }
 
 .mike {
-  background-color: #151515;
-  margin-left: 10px;
+  margin-left: 8px;
   border-radius: 40px;
 }
 
 
 .box3 {
-  width: 156px;
+  width: 225px;
+  height: 40px;
   display: flex;
-  justify-content: space-around;
+  position: relative;
+  justify-content: space-between;
   align-items: center;
-  padding-right: 20px;
+  padding-left: 69px;
 }
+
+.alert {
+  min-width: 8px;
+  height: 20px;
+  padding: 0px 4px;
+  border-radius: 22px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 4px;
+  left: 138px;
+  background-color: #CC0000;
+  border: 2px solid rgba(33,33,33,0.98)
+}
+
+.alertText {
+  font-size: 12px;
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: 16px;
+}
+

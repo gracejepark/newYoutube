@@ -1,13 +1,47 @@
-.button {
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    margin-right: 13px;
+.buttonFir {
+    padding: 5px 12px 6px 12px;
+    margin: 12px 12px 12px 24px;
     border: none;
     border-radius: 8px;
     font-size: 14px;
     font-weight: 500;
     background-color: #282828;
     color: white;
+    transition: all 0.4s;
+}
+
+.button {
+    padding: 5px 12px 6px 12px;
+    margin: 12px 12px 12px 0px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #282828;
+    color: white;
+    transition: all 0.4s;
+}
+
+.buttonLas {
+    padding: 5px 12px 6px 12px;
+    margin: 12px 24px 12px 0px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #282828;
+    color: white;
+    transition: all 0.4s;
+}
+
+.buttonFir:hover {
+    filter: brightness(1.7)
+}
+
+.button:hover {
+    filter: brightness(1.7)
+}
+
+.buttonLas:hover {
+    filter: brightness(1.7)
 }
