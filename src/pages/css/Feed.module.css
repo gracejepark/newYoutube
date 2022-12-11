@@ -1,6 +1,6 @@
 .totalBox {
     width: 860px;
-    margin-left: 340px;
+    margin-left: 330px;
 }
 
 .section {
@@ -58,4 +58,59 @@
 .totalBox2 {
     width: 1075px;
     margin-left: 140px;
+}
+
+
+.rightBox {
+    width: 178px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 140px;
+    right: 110px;
+}
+
+.rightBox2 {
+    width: 178px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 140px;
+    right: 100px;
+}
+
+.upBox {
+    width: 100%;
+    height: 154px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile {
+    width: 80px;
+    height: 80px;
+    background-color: dimgray;
+    border-radius: 80px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.textBox {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: #aaa;
+    font-size: 12px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)
 }

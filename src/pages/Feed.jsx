@@ -17,6 +17,7 @@ export default function Feed() {
 
   if (isOpen) {
     return (
+      <>
       <div className={styles.totalBox}>
 
         <Sidebar />
@@ -52,9 +53,32 @@ export default function Feed() {
         </div>
 
       </div>
+      <div className={styles.rightBox}>
+        <div className={styles.upBox}>
+          <div className={styles.profile}></div>
+          <h2 className={styles.name}>주응</h2>
+        </div>
+
+        <div className={styles.textBox}>
+         <p>구독</p>
+         <p>0</p>
+        </div>
+
+        <div className={styles.textBox}>
+        <p>업로드</p>
+        <p>0</p>
+        </div>
+
+        <div className={styles.textBox}>
+         <p>좋아요</p>
+         {likes && <p>{likes.length}</p>}
+        </div>
+      </div>
+      </>
     )
   } else {
     return (
+      <>
       <div className={styles.totalBox2}>
 
         <Sidebar />
@@ -90,6 +114,30 @@ export default function Feed() {
         </div>
 
       </div>
+      <div className={styles.rightBox2}>
+        <div className={styles.upBox}>
+          <div className={styles.profile}></div>
+          <h2 className={styles.name}>주응</h2>
+        </div>
+
+        <div className={styles.textBox}>
+         <p>구독</p>
+         <p>0</p>
+        </div>
+
+        <div className={styles.textBox}>
+        <p>업로드</p>
+        <p>0</p>
+        </div>
+
+        <div className={styles.textBox}>
+         <p>좋아요</p>
+         {likes && <p>{likes.length}</p>}
+        </div>
+      </div>
+      
+      </>
+      
     )
   }
 }
