@@ -1,14 +1,23 @@
 .box {
   display: inline-flex;
-  margin-top: 60px;
+  margin-top: 80px;
   padding-left: 240px;
-  position: relative;
+  /* position: relative; */
 }
 
 .videosUl {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding: 16px 0px 12px 24px;
-  margin: 0px;
+  margin: 0px 0px 0px 24px;
+}
+
+
+
+
+.box2 {
+  display: inline-flex;
+  margin-top: 80px;
+  padding-left: 74px;
+  /* padding: 0px 16px 0px 98px; */
 }

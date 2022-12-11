@@ -1,12 +1,12 @@
 .sidebar {
   width: 240px;
   height: 810px;
-  height: (100vw - 55px);
+  height: (100vw - 56px);
   display: inline-flex;
   flex-direction: column;
   overflow-y: auto;
   position: fixed;
-  top: 55px;
+  top: 56px;
   left: 0;
   -ms-overflow-style: none;
   z-index: 10;
@@ -46,4 +46,25 @@
 
 .sidebar:hover .hideBox {
   opacity: 0;
+}
+
+
+
+
+
+
+.subSidebar {
+  width: 72px;
+  height: (100vw - 56px);
+  padding: 0px 4px;
+  margin-top: 2px;
+  display: inline-flex;
+  flex-direction: column;
+  overflow-y: auto;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  bottom: 0;
+  -ms-overflow-style: none;
+  z-index: 10;
 }

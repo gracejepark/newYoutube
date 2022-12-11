@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useContext, useState } from "react"
 import styles from './css/Sidebar.module.css'
 
 import {ReactComponent as Home} from '../svg/home.svg'
@@ -32,6 +32,7 @@ import {ReactComponent as Center} from '../svg/center.svg'
 import {ReactComponent as Send} from '../svg/send.svg'
 
 import SidebarBlock from './ui/SidebarBlock'
+import { MenuContext } from "../context/MenuContext"
 
 
 
@@ -78,36 +79,61 @@ export default function Sidebar() {
     {title: '의견 보내기', icon: <Send/>},
   ])
 
-  return (
-    <div className={styles.sidebar}>
-      <ul className={styles.sidebarUl}>
-        {
-          block1.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
-        }
-      </ul>
-      <ul className={styles.sidebarUl}>
-        {
-          block2.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
-        }
-      </ul>
-      <ul className={styles.sidebarUl}>
-        <h3 className={styles.sidebarH3}>탐색</h3>
-        {
-          block3.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
-        }
-      </ul>
-      <ul className={styles.sidebarUl}>
-        <h3 className={styles.sidebarH3}>YouTube 더보기</h3>
-        {
-          block4.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
-        }
-      </ul>
-      <ul className={styles.sidebarUl}>
-        {
-          block5.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
-        }
-      </ul>
-      <div className={styles.hideBox}></div>
-    </div>
-  )
+  const [miniBlock] = useState([
+    {title: '홈', icon: <Home/>, nav: '/'},
+    {title: 'Shorts', icon: <Shorts/>},
+    {title: '구독', icon: <Subscribe/>},
+    {title: 'Originals', icon: <Originals/>},
+    {title: 'YouTube Music', icon: <YoutubeMusic/>},
+    {title: '보관함', icon: <Feed/>, nav: '/youtube/feed'},
+    {title: '오프라인 저장 동영상', icon: <Saved/>}
+  ])
+
+
+  const {isOpen} = useContext(MenuContext);
+
+  if(isOpen) {
+    return (
+      <div className={styles.sidebar}>
+        <ul className={styles.sidebarUl}>
+          {
+            block1.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
+          }
+        </ul>
+        <ul className={styles.sidebarUl}>
+          {
+            block2.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
+          }
+        </ul>
+        <ul className={styles.sidebarUl}>
+          <h3 className={styles.sidebarH3}>탐색</h3>
+          {
+            block3.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
+          }
+        </ul>
+        <ul className={styles.sidebarUl}>
+          <h3 className={styles.sidebarH3}>YouTube 더보기</h3>
+          {
+            block4.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
+          }
+        </ul>
+        <ul className={styles.sidebarUl}>
+          {
+            block5.map((a, i) => { return <SidebarBlock children={a} key={i} /> })
+          }
+        </ul>
+        <div className={styles.hideBox}></div>
+      </div>
+    )
+  } else {
+    return (
+      <div className={styles.subSidebar}>
+        <ul className={styles.subSidebarUl}>
+          {
+            miniBlock.map((a, i) => { return <SidebarBlock children={a} key={i} sub={'sub'}/> })
+          }
+        </ul>
+      </div>
+    )
+  }
 }

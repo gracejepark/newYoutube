@@ -1,3 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
 .liBox {
   width: 204px;
   height: 40px;
@@ -18,4 +25,40 @@
   font-size: 14px;
   font-weight: 400;
   letter-spacing: -0.5px;
+}
+
+
+
+
+
+.subLiBox {
+  width: 64px;
+  height: 74px;
+  padding: 16px 0px 14px;
+  background-color: #0F0F0F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.subLiBox:hover {
+  filter: brightness(2.3)
+}
+
+.subTitle {
+  font-size: 10px;
+  margin: 6px 0px 0px;
+  width: 100%;
+  font-weight: 500;
+  line-height: 13px;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }

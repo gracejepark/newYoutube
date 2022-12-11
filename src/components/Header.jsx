@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import styles from './css/Header.module.css'
 import { Link, useNavigate, useParams } from "react-router-dom"
+import { MenuContext } from "../context/MenuContext"
 
 import {ReactComponent as Youtube} from '../svg/logo.svg'
 import {ReactComponent as Menu} from '../svg/menu.svg'
@@ -17,6 +18,8 @@ export default function Header() {
   const {keyword} = useParams();
   const [text, setText] = useState();
 
+  const {toggleMenu} = useContext(MenuContext);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     navigate(`/youtube/${text}`)
@@ -27,7 +30,7 @@ export default function Header() {
   return (
       <header className={styles.header}>
         <div className={styles.box1}>
-          <button className={styles.menu}><Menu/></button>
+          <button className={styles.menu} onClick={() => toggleMenu()}><Menu/></button>
           <Link className={styles.youtube} to='/'>
             <Youtube/>
           </Link>

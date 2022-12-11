@@ -1,5 +1,6 @@
 .totalBox {
-    width: 680px;
+    /* width: 680px; */
+    width: 65%;
     display: flex;
     padding-top: 5px;
     padding-right: 50px;

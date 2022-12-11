@@ -52,3 +52,10 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+.totalBox2 {
+    width: 1075px;
+    margin-left: 140px;
+}

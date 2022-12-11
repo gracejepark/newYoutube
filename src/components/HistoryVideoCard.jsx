@@ -7,7 +7,6 @@ import HistoryBtnBar from "./ui/HistoryBtnBar";
 export default function HistoryVideoCard({video}) {
   const navigate = useNavigate();
   const {title, thumbnails, channelTitle, description} = video.snippet
-	// const {viewCount} = video.statistics
 
 	return (
 		<>
@@ -22,5 +21,3 @@ export default function HistoryVideoCard({video}) {
 		</>
 	)
 }
-
-// · 조회수 {viewCount}회
