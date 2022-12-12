@@ -9,6 +9,7 @@ import FeedVideoCard from "../components/FeedVideoCard";
 
 import {ReactComponent as History} from '../svg/history.svg'
 import {ReactComponent as Liekd} from '../svg/liked.svg'
+import Header from "../components/Header";
 
 export default function Feed() {
   const { data: histories } = useQuery(['histories'], () => getHistory());
@@ -18,6 +19,7 @@ export default function Feed() {
   if (isOpen) {
     return (
       <>
+      <Header/>
       <div className={styles.totalBox}>
 
         <Sidebar />
@@ -79,6 +81,7 @@ export default function Feed() {
   } else {
     return (
       <>
+      <Header/>
       <div className={styles.totalBox2}>
 
         <Sidebar />

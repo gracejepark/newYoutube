@@ -11,26 +11,32 @@ import {ReactComponent as Make} from '../svg/make.svg'
 import {ReactComponent as Alarm} from '../svg/alarm.svg'
 
 import Button from "./ui/Button"
+import { DetailMenuContext } from "../context/DetailMenuContext"
+import { OpacityContext } from "../context/OpacityContext"
 
 
-export default function Header() {
+export default function Header({detail}) {
   const navigate = useNavigate();
   const {keyword} = useParams();
   const [text, setText] = useState();
 
   const {toggleMenu} = useContext(MenuContext);
+  const {toggleBlock} = useContext(DetailMenuContext);
+  const {toggleActive} = useContext(OpacityContext);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     navigate(`/youtube/${text}`)
   }
 
-  useEffect(() => setText(keyword || ''), [keyword])
+  useEffect(() => setText(keyword || ''), [keyword]);
 
   return (
       <header className={styles.header}>
         <div className={styles.box1}>
-          <button className={styles.menu} onClick={() => toggleMenu()}><Menu/></button>
+          {detail ? 
+            <button className={styles.menu} onClick={() => {toggleActive(); toggleBlock()}}><Menu/></button>
+            : <button className={styles.menu} onClick={() => toggleMenu()}><Menu/></button>}
           <Link className={styles.youtube} to='/'>
             <Youtube/>
           </Link>

@@ -10,6 +10,7 @@ import styles from './css/Liked.module.css'
 import {ReactComponent as Asf} from '../svg/asf.svg'
 import {ReactComponent as Play} from '../svg/play.svg'
 import {ReactComponent as Shuffle} from '../svg/shuffle.svg'
+import Header from "../components/Header";
 
 export default function Liked() {
   const {data: likes} = useQuery(['likes'], () => getLiked());
@@ -17,6 +18,7 @@ export default function Liked() {
 
   if(!isOpen) {return (
     <>
+      <Header/>
       <Sidebar/>
       <div className={styles.leftBox2}>
         {
@@ -49,6 +51,7 @@ export default function Liked() {
   } else {
     return (
       <>
+        <Header/>
         <Sidebar/>
         <div className={styles.leftBox}>
           {

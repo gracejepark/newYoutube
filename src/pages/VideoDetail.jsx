@@ -4,13 +4,15 @@ import { useQuery } from "@tanstack/react-query";
 import { useYoutubeApi } from "../context/YoutubeApiContext";
 import { addHistory } from "../api/firebase";
 
+import styles from './css/VideoDetail.module.css'
+
 import ChannelImg from "../components/ChannelImg";
 import DetailButton from "../components/ui/DetailButton";
 import CommentCard from "../components/ui/CommentCard";
-
-import styles from './css/VideoDetail.module.css'
 import RelatedVdeosCard from "../components/RelatedVideosCard";
 import RelatedBtn from "../components/ui/RelatedBtn";
+import Header from "../components/Header";
+import DetailSidebar from "../components/DetailSidebar";
 
 export default function VideoDetail() {
   const {state: {video}} = useLocation();
@@ -52,6 +54,9 @@ export default function VideoDetail() {
   ])
 
   return (
+    <>
+    <Header detail={'detail'}/>
+    <DetailSidebar/>
     <div className={styles.totalBox}>
       <section className={styles.leftBox}>
 
@@ -118,6 +123,6 @@ export default function VideoDetail() {
         </div>
       </section>
     </div>
-
+    </>
   )
 }

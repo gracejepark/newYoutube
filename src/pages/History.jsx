@@ -7,6 +7,7 @@ import styles from './css/History.module.css'
 import HistoryVideoCard from "../components/HistoryVideoCard";
 import Sidebar from "../components/Sidebar";
 import HistoryBtnBar from "../components/ui/HistoryBtnBar";
+import Header from "../components/Header";
 
 export default function History() {
   const {data: histories} = useQuery(['histories'], () => getHistory());
@@ -15,6 +16,7 @@ export default function History() {
   if(isOpen) {
     return (
       <>
+        <Header/>
         <Sidebar />
         <div className={styles.totalBox}>
           <h2 className={styles.title}>시청 기록</h2>
@@ -26,6 +28,7 @@ export default function History() {
   } else {
     return (
       <>
+        <Header/>
         <Sidebar />
         <div className={styles.totalBox2}>
           <h2 className={styles.title}>시청 기록</h2>

@@ -10,6 +10,7 @@ import ButtonBar from "../components/ButtonBar"
 import { MenuContext } from "../context/MenuContext";
 
 import Sidebar from "../components/Sidebar";
+import Header from "../components/Header";
 
 export default function Videos() {
   const {keyword} = useParams();
@@ -21,6 +22,7 @@ export default function Videos() {
   if (isOpen) {
     return (
       <>
+      <Header/>
       <Sidebar/>
       <div className={styles.box}>
         <ButtonBar/>
@@ -37,6 +39,7 @@ export default function Videos() {
   } else {
     return (
       <>
+      <Header/>
       <Sidebar/>
       <div className={styles.box2}>
         <ButtonBar/>
