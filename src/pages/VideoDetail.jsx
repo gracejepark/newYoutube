@@ -14,6 +14,16 @@ import RelatedBtn from "../components/ui/RelatedBtn";
 import Header from "../components/Header";
 import DetailSidebar from "../components/DetailSidebar";
 
+import {ReactComponent as ThumbsUp} from '../svg/thumbsUp.svg'
+import {ReactComponent as ThumbsDown} from '../svg/thumbsDown.svg'
+import {ReactComponent as Share} from '../svg/share.svg'
+import {ReactComponent as Saved} from '../svg/saved.svg'
+import {ReactComponent as Clip} from '../svg/clip.svg'
+import {ReactComponent as SaveToAdd} from '../svg/saveToAdd.svg'
+import {ReactComponent as Asf} from '../svg/asf.svg'
+import {ReactComponent as Flag} from '../svg/flag.svg'
+import {ReactComponent as Script} from '../svg/script.svg'
+
 export default function VideoDetail() {
   const {state: {video}} = useLocation();
   const {youtube} = useYoutubeApi();
@@ -33,13 +43,13 @@ export default function VideoDetail() {
   ])
 
   const [text2] = useState([
-    {title: '좋아요'},
-    {title: '싫어요'},
-    {title: '공유'},
-    { title: '오프라인 저장' },
-    { title: '클립' },
-    { title: '저장' },
-    { title: '기타' }
+    {title: '좋아요', icon: <ThumbsUp/>},
+    {title: '싫어요', icon: <ThumbsDown/>},
+    {title: '공유', icon: <Share/>, margin: 'margin'},
+    { title: '오프라인 저장', icon: <Saved/>, margin: 'margin'},
+    { title: '클립', icon: <Clip/>, margin: 'margin'},
+    { title: '저장', icon: <SaveToAdd/>, margin: 'margin'},
+    { title: '기타', icon: <Asf/>, subIcon1: <Flag/>, subIcon2: <Script/>}
   ])
 
   const [text3] = useState([
@@ -79,7 +89,10 @@ export default function VideoDetail() {
           <div className={styles.channelBtnBox}>
             {
               text2.map((a, i) => {
-                return <DetailButton videoId={video.id} video={video} text={a.title} key={i}/>
+                return <>{videoDetail ? 
+                            <DetailButton videoId={video.id} video={video} text={a.title} key={i} icon={a.icon} likeCount={videoDetail.statistics.likeCount} margin={a.margin} subIcon1={a.subIcon1} subIcon2={a.subIcon2}/>
+                              : <DetailButton videoId={video.id} video={video} text={a.title} key={i} icon={a.icon} likeCount={31026} margin={a.margin} subIcon1={a.subIcon1} subIcon2={a.subIcon2}/>
+                          }</>
               })
             }
           </div>

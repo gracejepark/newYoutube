@@ -1,10 +1,178 @@
-.button {
+.likeButton {
   height: 36px;
-  padding: 8px;
-  padding-left: 13px;
-  padding-right: 13px;
+  display: flex;
+  align-items: center;
+  padding: 8px 0px 8px 13px;
   margin-left: 10px;
+  border-radius: 46px 0px 0px 46px;
+  line-height: 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.likeButton:hover {
+  background-color: #606060;
+  opacity: 0.9;
+}
+
+.disLikeButton {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 8px 13px;
+  border-radius: 0px 46px 46px 0px;
+  line-height: 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.disLikeButton:hover {
+  background-color: #606060;
+  opacity: 0.9;
+}
+
+.likeIconBox {
+  max-width: 100px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  border-right: 0.5px solid #717171;
+}
+
+.likeCount {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0px 5px;
+}
+
+.iconBox {
+  width: 24px;
+  height: 24px;
+}
+
+.asfButton {
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 46px;
   line-height: 18px;
   background: rgba(255, 255, 255, 0.1);
+}
+
+.asfButton:hover {
+  background-color: #606060;
+  opacity: 0.9;
+}
+
+.button {
+  height: 36px;
+  padding: 8px 13px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 46px;
+  line-height: 18px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.button:hover {
+  background-color: #606060;
+  opacity: 0.9;
+}
+
+.marginText {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+
+
+
+.totalBtnBox {
+  position: relative
+}
+
+.underTextBox {
+  white-space: nowrap;
+  padding: 8px 10px;
+  position: absolute;
+  top: 56px;
+  left: calc(50% + 5px);
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: #717171;
+  opacity: 0.9;
+  border-radius: 4px;
+  visibility: hidden;
+  z-index: 20;
+}
+
+.totalBtnBox:hover .underTextBox{
+  animation: visible 0.3s;
+  visibility: visible;
+}
+
+@keyframes visible {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 0.9
+  }
+}
+
+.underText {
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
+
+
+
+.asfBtnBox {
+  position: relative
+}
+
+.underBtnBox {
+  padding: 8px 0px;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  background-color: #282828;
+  border-radius: 6px;
+}
+
+.underBtn1 {
+  width: 100%;
+  display: flex;
+  padding: 8px 20px;
+}
+
+.underBtn1:hover {
+  background-color: #717171;
+}
+
+.underBtn2 {
+  display: flex;
+  padding: 8px 20px;
+}
+
+.underBtn2:hover {
+  background-color: #717171;
+}
+
+.underBtnText {
+  font-size: 14px;
+  margin-left: 16px;
 }

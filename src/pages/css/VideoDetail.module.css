@@ -48,6 +48,10 @@
   font-weight: 400;
 }
 
+.channelBtnBox {
+  display: flex;
+}
+
 
 .desBox {
   margin-top: 20px;

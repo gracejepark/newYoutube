@@ -7,6 +7,8 @@ import { ReactComponent as ThumbsDown } from '../../svg/thumbsDown.svg'
 
 export default function CommentCard({ comment }) {
 
+  // console.log(`${comment.snippet.topLevelComment.snippet.textDisplay.length}`)
+
   if (comment.replies) {
     const replies = comment.replies
 
