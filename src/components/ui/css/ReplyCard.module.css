@@ -1,0 +1,53 @@
+.topBox {
+    display: flex;
+    margin-bottom: 23px;
+  }
+
+.profilePic {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    margin-top: 2px;
+  }
+  
+  .comTextBox {
+    margin-left: 15px;
+    font-size: 12px;
+  }
+  
+  
+  
+  .nameBox {
+    display: flex
+  }
+  
+  .name {
+    font-weight: 700;
+  }
+  
+  .publish {
+    margin-left: 5px;
+    color: gray
+  }
+  
+  .comment {
+    font-size: 13px;
+    font-weight: 500
+  }
+  
+  
+  
+  .btnBox {
+    display: flex;
+    margin-top: 5px;
+  }
+  
+  .likeCount {
+    margin-left: 6px;
+    margin-right: 20px;
+    color: #AAAAAA
+  }
+  
+  .button {
+    width: 20px;
+  }

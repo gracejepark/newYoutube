@@ -1,13 +1,17 @@
-import React from "react"
+import React, { useState } from "react"
 
 import styles from './css/CommentCard.module.css'
 
 import { ReactComponent as ThumbsUp } from '../../svg/thumbsUp.svg'
 import { ReactComponent as ThumbsDown } from '../../svg/thumbsDown.svg'
+import { ReactComponent as DownArrow } from '../../svg/downArrow.svg'
+import { ReactComponent as UpArrow } from '../../svg/upArrow.svg'
+
+import ReplyCard from "./ReplyCard"
 
 export default function CommentCard({ comment }) {
 
-  // console.log(`${comment.snippet.topLevelComment.snippet.textDisplay.length}`)
+  const [showReply, setReply] = useState(false);
 
   if (comment.replies) {
     const replies = comment.replies
@@ -28,8 +32,13 @@ export default function CommentCard({ comment }) {
             <button className={styles.button}><ThumbsDown /></button>
           </div>
 
+          <button className={styles.replyBtn} onClick={() => setReply(!showReply)}>
+            {showReply ? <UpArrow/> : <DownArrow/>}
+            <p className={styles.replyCount}>답글 {replies.comments.length}개</p>
+          </button>
+
           <div>
-            <p>{replies.comments.map((a) => <p>{a.snippet.textDisplay}</p>)}</p>
+            {replies.comments.map((a) => <ReplyCard reply={a} showReply={showReply}/>)}
           </div>
         </div>
       </div>

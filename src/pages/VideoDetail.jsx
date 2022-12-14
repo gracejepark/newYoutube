@@ -23,6 +23,7 @@ import {ReactComponent as SaveToAdd} from '../svg/saveToAdd.svg'
 import {ReactComponent as Asf} from '../svg/asf.svg'
 import {ReactComponent as Flag} from '../svg/flag.svg'
 import {ReactComponent as Script} from '../svg/script.svg'
+import DescriptionBox from "../components/ui/DescriptionBox";
 
 export default function VideoDetail() {
   const {state: {video}} = useLocation();
@@ -98,13 +99,11 @@ export default function VideoDetail() {
           </div>
         </div> {/* channel Info box */}
 
-        <div className={styles.desBox}>
-          <div className={styles.desInfoBox}>
-            {videoDetail && <p>조회수 {videoDetail.statistics.viewCount}회</p>}
-            <p className={styles.pubText}>{video.snippet.publishedAt}</p>
+        {videoDetail &&
+          <div>
+            <DescriptionBox viewCount={videoDetail.statistics.viewCount} publishedAt={video.snippet.publishedAt} description={video.snippet.description} />
           </div>
-          <p>{video.snippet.description}</p>
-        </div>
+        }
 
         <div className={styles.comBtnBox}>
           {videoDetail && <p className={styles.comCount}>댓글 {videoDetail.statistics.commentCount}개</p>}
