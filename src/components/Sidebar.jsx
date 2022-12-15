@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react"
+import { useMediaQuery } from "react-responsive"
 import styles from './css/Sidebar.module.css'
 
 import {ReactComponent as Home} from '../svg/home.svg'
@@ -31,8 +32,16 @@ import {ReactComponent as Notify} from '../svg/notify.svg'
 import {ReactComponent as Center} from '../svg/center.svg'
 import {ReactComponent as Send} from '../svg/send.svg'
 
+
+import {ReactComponent as Menu} from '../svg/menu.svg'
+import {ReactComponent as Youtube} from '../svg/logo.svg'
+
 import SidebarBlock from './ui/SidebarBlock'
+import DetailSidebar from './DetailSidebar'
+
 import { MenuContext } from "../context/MenuContext"
+import { OpacityContext } from "../context/OpacityContext"
+import { Link } from "react-router-dom"
 
 
 
@@ -89,10 +98,29 @@ export default function Sidebar() {
     {title: '오프라인 저장 동영상', icon: <Saved/>}
   ])
 
+  //1310~: 기본 사이드 바 & 토글 시 서브 사이드 바
+  //790~1310: 서브 사이드 바 & 토글 시 디테일 사이드 바
+  //~789: null & 토글 시 디테일 사이드 바
+
+  const full = useMediaQuery({
+    query: "(min-width: 1310px)"
+  })
+
+  const medium = useMediaQuery({
+    query: "(min-width: 790px) and (max-width: 1309px)"
+  })
+
+  const minimum = useMediaQuery({
+    query: "(max-width: 789px)"
+  })
 
   const {isOpen} = useContext(MenuContext);
+  //isOpen은 이제 페이지 로드 시 기본값이 되는 사이드바의 상태라고 친다.
 
-  if(isOpen) {
+  const {toggleMenu} = useContext(MenuContext);
+  const {isActive, toggleActive} = useContext(OpacityContext);
+
+  if(isOpen && full) {
     return (
       <div className={styles.sidebar}>
         <ul className={styles.sidebarUl}>
@@ -125,15 +153,204 @@ export default function Sidebar() {
         <div className={styles.hideBox}></div>
       </div>
     )
-  } else {
+  } else if (!isOpen && full) {
     return (
       <div className={styles.subSidebar}>
         <ul className={styles.subSidebarUl}>
           {
-            miniBlock.map((a, i) => { return <SidebarBlock children={a} key={i} sub={'sub'}/> })
+            miniBlock.map((a, i) => { return <SidebarBlock children={a} key={i} sub={'sub'} /> })
           }
         </ul>
       </div>
+    )
+  } else if (isOpen && medium) {
+    return (
+      <>
+        <div className={isActive ? styles.backgroundActive : styles.backgroundHidden}></div>
+        <div className={isActive ? styles.totalBoxActive : styles.totalBoxHidden}>
+          <div className={styles.box1}>
+            <button className={styles.menu} onClick={() => { toggleMenu(); toggleActive() }}><Menu /></button>
+            <Link className={styles.youtube} to='/' onClick={() => { toggleActive() }}>
+              <Youtube />
+            </Link>
+          </div>
+
+          <div className={styles.sidebar}>
+            <ul className={styles.sidebarUl}>
+              {
+                block1.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'} /> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              {
+                block2.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'} /> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              <h3 className={styles.sidebarH3}>탐색</h3>
+              {
+                block3.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'} /> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              <h3 className={styles.sidebarH3}>YouTube 더보기</h3>
+              {
+                block4.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'} /> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              {
+                block5.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'} /> })
+              }
+            </ul>
+            <div className={styles.hideBox}></div>
+          </div>
+        </div>
+
+
+        <div className={styles.subSidebar}>
+          <ul className={styles.subSidebarUl}>
+            {
+              miniBlock.map((a, i) => { return <SidebarBlock children={a} key={i} sub={'sub'} /> })
+            }
+          </ul>
+        </div>
+      </>
+    )
+  } else if (!isOpen && medium) {
+    return (
+      <>
+        <div className={isActive ? styles.backgroundActive : styles.backgroundHidden}></div>
+        <div className={isActive ? styles.totalBoxActive : styles.totalBoxHidden}>
+          <div className={styles.box1}>
+            <button className={styles.menu} onClick={() => {toggleMenu(); toggleActive()}}><Menu /></button>
+            <Link className={styles.youtube} to='/' onClick={() => {toggleActive()}}>
+              <Youtube />
+            </Link>
+          </div>
+
+          <div className={styles.sidebar}>
+            <ul className={styles.sidebarUl}>
+              {
+                block1.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              {
+                block2.map((a, i) => { return <SidebarBlock children={a} key={i}  detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              <h3 className={styles.sidebarH3}>탐색</h3>
+              {
+                block3.map((a, i) => { return <SidebarBlock children={a} key={i}  detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              <h3 className={styles.sidebarH3}>YouTube 더보기</h3>
+              {
+                block4.map((a, i) => { return <SidebarBlock children={a} key={i}  detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              {
+                block5.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'} /> })
+              }
+            </ul>
+            <div className={styles.hideBox}></div>
+          </div>
+        </div>
+      </>
+    )
+  } else if (isOpen && minimum) {
+    return (
+      <>
+        <div className={isActive ? styles.backgroundActive : styles.backgroundHidden}></div>
+        <div className={isActive ? styles.totalBoxActive : styles.totalBoxHidden}>
+          <div className={styles.box1}>
+            <button className={styles.menu} onClick={() => {toggleMenu(); toggleActive()}}><Menu /></button>
+            <Link className={styles.youtube} to='/' onClick={() => {toggleActive()}}>
+              <Youtube />
+            </Link>
+          </div>
+
+          <div className={styles.sidebar}>
+            <ul className={styles.sidebarUl}>
+              {
+                block1.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              {
+                block2.map((a, i) => { return <SidebarBlock children={a} key={i}  detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              <h3 className={styles.sidebarH3}>탐색</h3>
+              {
+                block3.map((a, i) => { return <SidebarBlock children={a} key={i}  detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              <h3 className={styles.sidebarH3}>YouTube 더보기</h3>
+              {
+                block4.map((a, i) => { return <SidebarBlock children={a} key={i}  detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              {
+                block5.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'} /> })
+              }
+            </ul>
+            <div className={styles.hideBox}></div>
+          </div>
+        </div>
+      </>
+    )
+  } else if (!isOpen && minimum) {
+    return (
+      <>
+        <div className={isActive ? styles.backgroundActive : styles.backgroundHidden}></div>
+        <div className={isActive ? styles.totalBoxActive : styles.totalBoxHidden}>
+          <div className={styles.box1}>
+            <button className={styles.menu} onClick={() => {toggleMenu(); toggleActive()}}><Menu /></button>
+            <Link className={styles.youtube} to='/' onClick={() => {toggleActive()}}>
+              <Youtube />
+            </Link>
+          </div>
+
+          <div className={styles.sidebar}>
+            <ul className={styles.sidebarUl}>
+              {
+                block1.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              {
+                block2.map((a, i) => { return <SidebarBlock children={a} key={i}  detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              <h3 className={styles.sidebarH3}>탐색</h3>
+              {
+                block3.map((a, i) => { return <SidebarBlock children={a} key={i}  detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              <h3 className={styles.sidebarH3}>YouTube 더보기</h3>
+              {
+                block4.map((a, i) => { return <SidebarBlock children={a} key={i}  detail={'detail'}/> })
+              }
+            </ul>
+            <ul className={styles.sidebarUl}>
+              {
+                block5.map((a, i) => { return <SidebarBlock children={a} key={i} detail={'detail'} /> })
+              }
+            </ul>
+            <div className={styles.hideBox}></div>
+          </div>
+        </div>
+      </>
     )
   }
 }

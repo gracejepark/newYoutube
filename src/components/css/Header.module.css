@@ -1,5 +1,5 @@
 .header {
-  width: 100vw;
+  width: 100%;
   height: 56px;
   padding: 0px 32px 0px 16px;
   display: flex;
@@ -42,7 +42,8 @@
 
 
 .box2 {
-  width: 728px;
+  width: 58%;
+  max-width: 728px;
   height: 40px;
   display: flex;
   justify-content: flex-end;
@@ -50,7 +51,8 @@
 }
 
 .input {
-  width: 540px;
+  width: 71.2%;
+  max-width: 540px;
   height: 40px;
   background-color: hsl(0, 0%, 7%);
   border: 1px solid hsl(0, 0%, 18.82%);
@@ -67,21 +69,45 @@
 .search {
   width: 64px;
   height: 40px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: white;
   background-color: #232323;
   border: 1px solid #323232;
   border-left: none;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  padding: 1px 0px 1px 20px;
+  padding: 0px;
+  flex-shrink: 0;
+}
+
+.searchInBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mike {
   margin-left: 8px;
   border-radius: 40px;
+}
+
+@media screen and (max-width: 564px) {
+  .input {
+    visibility: hidden;
+  }
+
+  .search {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    justify-content: center;
+    border: none;
+    border-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 0px;
+    margin-right: 5px;
+  }
 }
 
 
@@ -92,6 +118,7 @@
   position: relative;
   justify-content: space-between;
   align-items: center;
+  flex-shrink: 0;
   padding-left: 69px;
 }
 
@@ -117,3 +144,14 @@
   line-height: 16px;
 }
 
+@media screen and (max-width: 564px) {
+  .box3 {
+    width: 156px;
+    padding-left: 0px;
+    justify-content: flex-end;
+  }
+
+  .alert {
+    left: 77px;
+  }
+}

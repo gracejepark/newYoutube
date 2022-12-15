@@ -88,20 +88,14 @@ export default function DetailSidebar() {
   const {isBlock, toggleBlock} = useContext(DetailMenuContext);
   const {isActive, toggleActive} = useContext(OpacityContext);
 
-  // if (!isBlock) {
-  //   setTimeout(() => {
-  //     const timeout = {display: "none"}
-  //   }, 300)
-  // }
-
   if(isBlock) {
     return (
       <>
-        <div className={isActive ? styles.backgroundActive : styles.backgroundHidden}></div>
-        <div className={isActive ? styles.totalBoxActive : styles.totalBoxHidden}>
+        <div className={isBlock ? styles.backgroundActive : styles.backgroundHidden}></div>
+        <div className={isBlock ? styles.totalBoxActive : styles.totalBoxHidden}>
           <div className={styles.box1}>
-            <button className={styles.menu} onClick={() => {toggleActive(); toggleBlock()}}><Menu /></button>
-            <Link className={styles.youtube} to='/' onClick={() => {toggleBlock(); toggleActive()}}>
+            <button className={styles.menu} onClick={() => {toggleBlock()}}><Menu /></button>
+            <Link className={styles.youtube} to='/' onClick={() => {toggleBlock()}}>
               <Youtube />
             </Link>
           </div>
@@ -142,11 +136,11 @@ export default function DetailSidebar() {
   } else {
     return (
       <>
-        <div className={isActive ? styles.backgroundActive : styles.backgroundHidden}></div>
-        <div className={isActive ? styles.totalBoxActive : styles.totalBoxHidden}>
+        <div className={isBlock ? styles.backgroundActive : styles.backgroundHidden}></div>
+        <div className={isBlock ? styles.totalBoxActive : styles.totalBoxHidden}>
           <div className={styles.box1}>
-            <button className={styles.menu} onClick={() => {toggleActive(); toggleBlock()}}><Menu /></button>
-            <Link className={styles.youtube} to='/' onClick={() => {toggleBlock(); toggleActive()}}>
+            <button className={styles.menu} onClick={() => {toggleBlock()}}><Menu /></button>
+            <Link className={styles.youtube} to='/' onClick={() => {toggleBlock()}}>
               <Youtube />
             </Link>
           </div>

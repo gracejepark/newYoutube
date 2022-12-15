@@ -13,6 +13,7 @@ import {ReactComponent as Alarm} from '../svg/alarm.svg'
 import Button from "./ui/Button"
 import { DetailMenuContext } from "../context/DetailMenuContext"
 import { OpacityContext } from "../context/OpacityContext"
+import { useMediaQuery } from "react-responsive"
 
 
 export default function Header({detail}) {
@@ -31,11 +32,26 @@ export default function Header({detail}) {
 
   useEffect(() => setText(keyword || ''), [keyword]);
 
-  return (
+
+  const full = useMediaQuery({
+    query: "(min-width: 1310px)"
+  })
+
+  const medium = useMediaQuery({
+    query: "(min-width: 790px) and (max-width: 1309px)"
+  })
+
+  const minimum = useMediaQuery({
+    query: "(max-width: 789px)"
+  })
+  
+
+  if (full) {
+    return (
       <header className={styles.header}>
         <div className={styles.box1}>
           {detail ? 
-            <button className={styles.menu} onClick={() => {toggleActive(); toggleBlock()}}><Menu/></button>
+            <button className={styles.menu} onClick={() => {toggleBlock()}}><Menu/></button>
             : <button className={styles.menu} onClick={() => toggleMenu()}><Menu/></button>}
           <Link className={styles.youtube} to='/'>
             <Youtube/>
@@ -50,7 +66,41 @@ export default function Header({detail}) {
             className={styles.input}
             onChange={(e) => setText(e.target.value)}
           />
-          <button className={styles.search}><Search/></button>
+          <button className={styles.search}><div className={styles.searchInBox}><Search/></div></button>
+          <div className={styles.mike}>
+            <Button text={'음성으로 검색'} q={'mike'} icon={<Mike/>}/>
+          </div>
+        </form>
+
+        <div className={styles.box3}>
+          <Button text={'만들기'} icon={<Make/>}/>
+          <Button text={'알림'} icon={<Alarm/>} />
+          <div className={styles.alert}><p className={styles.alertText}>9+</p></div>
+          <Button className={styles.profile}/>
+        </div>
+      </header>
+    )
+  } else if (medium || minimum) {
+    return (
+      <header className={styles.header}>
+        <div className={styles.box1}>
+          {detail ? 
+            <button className={styles.menu} onClick={() => {toggleBlock()}}><Menu/></button>
+            : <button className={styles.menu} onClick={() => {toggleMenu(); toggleActive()}}><Menu/></button>}
+          <Link className={styles.youtube} to='/'>
+            <Youtube/>
+          </Link>
+        </div>
+        
+        <form onSubmit={handleSubmit} className={styles.box2}>
+          <input 
+            type='text' 
+            placeholder="검색" 
+            value={text} 
+            className={styles.input}
+            onChange={(e) => setText(e.target.value)}
+          />
+          <button className={styles.search}><div className={styles.searchInBox}><Search/></div></button>
           <div className={styles.mike}>
             <Button text={'음성으로 검색'} q={'mike'} icon={<Mike/>}/>
           </div>
@@ -64,5 +114,42 @@ export default function Header({detail}) {
         </div>
       </header>
   )
+  }
+  
 }
 
+
+
+// return (
+//   <header className={styles.header}>
+//     <div className={styles.box1}>
+//       {detail ? 
+//         <button className={styles.menu} onClick={() => {toggleBlock()}}><Menu/></button>
+//         : <button className={styles.menu} onClick={() => toggleMenu()}><Menu/></button>}
+//       <Link className={styles.youtube} to='/'>
+//         <Youtube/>
+//       </Link>
+//     </div>
+    
+//     <form onSubmit={handleSubmit} className={styles.box2}>
+//       <input 
+//         type='text' 
+//         placeholder="검색" 
+//         value={text} 
+//         className={styles.input}
+//         onChange={(e) => setText(e.target.value)}
+//       />
+//       <button className={styles.search}><Search/></button>
+//       <div className={styles.mike}>
+//         <Button text={'음성으로 검색'} q={'mike'} icon={<Mike/>}/>
+//       </div>
+//     </form>
+
+//     <div className={styles.box3}>
+//       <Button text={'만들기'} icon={<Make/>}/>
+//       <Button text={'알림'} icon={<Alarm/>} />
+//       <div className={styles.alert}><p className={styles.alertText}>9+</p></div>
+//       <Button className={styles.profile}/>
+//     </div>
+//   </header>
+// )

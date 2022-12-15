@@ -3,22 +3,51 @@
 @tailwind utilities;
 
 .totalBox {
-  /* width: 300px;
-  height: 315px; */
-  width: 25%;
-  height: 12.1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1225px) {
+  .totalBox {
+    width: 25%;
+    min-width: 240px;
+    height: 12.1%;
+  }
+}
+
+@media screen and (min-width: 985px) and (max-width: 1224px) {
+  .totalBox {
+    width: 33%;
+    min-width: 240px;
+    height: 9%;
+  }
+}
+
+@media screen and (min-width: 745px) and (max-width: 984px) {
+  .totalBox {
+    width: 50%;
+    min-width: 240px;
+    height: 6%;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .totalBox {
+    width: 100%;
+    min-width: 240px;
+    height: 3%;
+  }
 }
 
 .imgBox {
-  /* width: 292px;
-  height: 164px; */
   width: 100%;
   display: flex;
+  justify-content: center;
   overflow: hidden
 }
 
 .thumbnail {
-  /* width: 292px; */
   width: 90%;
   object-fit : cover;
   border-radius: 13px;
@@ -26,13 +55,14 @@
 }
 
 .underBox {
+  width: 90%;
   display: flex;
   overflow: hidden;
   padding-top: 10px;
 }
 
 .textBox {
-  width: 217px;
+  width: 80%;
   font-size: 14px;
   padding-left: 13px;
 }

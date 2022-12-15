@@ -53,6 +53,7 @@
 
 
 
+
 .subSidebar {
   width: 72px;
   height: (100vw - 56px);
@@ -67,4 +68,165 @@
   bottom: 0;
   -ms-overflow-style: none;
   z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+.backgroundHidden {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  transition: all 0.2s;
+  z-index: 20;
+}
+
+.backgroundActive{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: visible;
+  transition: all 0.2s;
+  z-index: 20;
+}
+
+
+.totalBoxHidden {
+  width: 240px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #0F0F0F;
+  animation: slideout 0.2s;
+  visibility: hidden;
+  transition: ease-in 0.2s;
+  z-index: 20;
+
+}
+
+.totalBoxActive {
+  width: 240px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #0F0F0F;
+  animation: slidein 0.2s;
+  visibility: visible;
+  z-index: 20;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(-240px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slideout {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-240px);
+  }
+}
+
+
+
+.box1 {
+  width: 169px;
+  height: 56px;
+  padding: 0px 0px 0px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  background: transparent;
+  border: none;
+}
+
+.youtube {
+  display: flex;
+  align-items: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sidebar {
+  width: 240px;
+  height: 810px;
+  height: (100vw - 56px);
+  display: inline-flex;
+  flex-direction: column;
+  overflow-y: auto;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  -ms-overflow-style: none;
+  z-index: 10;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 9px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #717171;
+  border-radius: 9px;
+}
+
+.sidebarUl {
+  list-style: none;
+  padding: 12px;
+  margin: 0px;
+  border-bottom: 1.3px solid #232323
+}
+
+.sidebarH3 {
+  padding: 6px 12px 4px;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hideBox {
+  width: 9px;
+  height: 100%;
+  position: fixed;
+  top: 56;
+  left: 231px;
+  background-color: #0F0F0F;
+}
+
+.sidebar:hover .hideBox {
+  opacity: 0;
 }
