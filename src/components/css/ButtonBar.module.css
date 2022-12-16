@@ -1,12 +1,166 @@
-.buttonBar {
-  width: 100%;
+.totalBoxFull {
+  width: calc(100% - 240px);
   height: 56px;
-  padding-right: 16px;
-  display: flex;
-  align-items: flex-start;
   position: fixed;
   top: 56px;
   background-color: #0F0F0F;
+}
+
+.totalBoxMedium {
+  width: calc(100% - 74px);
+  height: 56px;
+  position: fixed;
+  top: 56px;
+  background-color: #0F0F0F;
+}
+
+.totalBoxMinimum {
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  top: 56px;
+  background-color: #0F0F0F;
+}
+
+
+
+
+.buttonBar {
+  padding-right: 16px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
   white-space: nowrap;
   z-index: 1;
 }
+
+
+
+
+.btnWrap {
+  padding-left: 0px;
+}
+
+
+
+
+.colorBoxLeft {
+  width: 100px;
+  height: 56px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  left: -2px;
+  background: linear-gradient(90deg, #0F0F0F 60%, #0F0F0F00 100%);
+  z-index: 5;
+}
+
+.colorBoxRight {
+  width: 100px;
+  height: 56px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0px;
+  background: linear-gradient(90deg, #0F0F0F00 0%, #0F0F0F 40%);
+  z-index: 5;
+}
+
+
+
+
+
+.dummyBoxLeft {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+.dummyBoxRight {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+
+.btnBoxLeft {
+  width: 40px;
+  height: 40px;
+  background-color: #0F0F0F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.btnBoxRight {
+  width: 40px;
+  height: 40px;
+  background-color: #0F0F0F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+
+
+
+
+
+.textBox {
+  white-space: nowrap;
+  padding: 7px 10px;
+  position: absolute;
+  top: 56px;
+  transform: translateX(-7%);
+  text-align: center;
+  background-color: #717171;
+  font-size: 12px;
+  opacity: 0.9;
+  border-radius: 4px;
+  visibility: hidden;
+  z-index: 20;
+}
+
+
+
+
+.btnBoxLeft:hover {
+  filter: brightness(2.3)
+}
+
+.btnBoxRight:hover {
+  filter: brightness(2.3);
+}
+
+
+
+.dummyBoxLeft:hover .textBox {
+  visibility: visible;
+}
+
+.dummyBoxRight:hover .textBox {
+  visibility: visible;
+}
+
+
+
+/* .btnBoxLeft:active .btnWrap{
+  transform: translateX(30%)
+}
+
+.btnBoxRight:active .btnWrap{
+  transform: translateX(-30%)
+} */
+
+.colorBoxRight:hover + .btnWrap {
+  margin-left: -300px;
+}
+

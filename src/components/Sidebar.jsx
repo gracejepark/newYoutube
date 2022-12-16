@@ -114,10 +114,9 @@ export default function Sidebar() {
     query: "(max-width: 789px)"
   })
 
-  const {isOpen} = useContext(MenuContext);
-  //isOpen은 이제 페이지 로드 시 기본값이 되는 사이드바의 상태라고 친다.
+  const {isOpen, toggleMenu} = useContext(MenuContext);
+  //isOpen은 이제 페이지 로드 시 기본값이 되는 사이드바의 상태이다.
 
-  const {toggleMenu} = useContext(MenuContext);
   const {isActive, toggleActive} = useContext(OpacityContext);
 
   if(isOpen && full) {

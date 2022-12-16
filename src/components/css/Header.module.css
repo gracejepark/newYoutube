@@ -50,8 +50,34 @@
   align-items: center;
 }
 
+.subBox2 {
+  width: 100%;
+  height: 40px;
+  background-color: #0F0F0F;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+}
+
 .input {
   width: 71.2%;
+  max-width: 540px;
+  height: 40px;
+  background-color: hsl(0, 0%, 7%);
+  border: 1px solid hsl(0, 0%, 18.82%);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  outline: none;
+  padding: 0px 4px 0px 16px;
+  margin-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(0, 100%, 100%, 0.88);
+}
+
+.subInput {
+  /* width: 71.2%; */
+  width: calc(100% - 210px);
   max-width: 540px;
   height: 40px;
   background-color: hsl(0, 0%, 7%);
@@ -79,6 +105,24 @@
   flex-shrink: 0;
 }
 
+.subSearch {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: #232323;
+  border: 1px solid #323232;
+  border-left: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 0px;
+  position: relative;
+}
+
+.underText {
+  font-size: 12.5px;
+  font-weight: 500;
+}
+
 .searchInBox {
   width: 100%;
   display: flex;
@@ -92,14 +136,10 @@
 }
 
 @media screen and (max-width: 564px) {
-  .input {
-    visibility: hidden;
-  }
-
   .search {
     width: 40px;
     height: 40px;
-    background-color: transparent;
+    background-color: #0F0F0F;
     justify-content: center;
     border: none;
     border-radius: 40px;
@@ -108,7 +148,47 @@
     padding: 0px;
     margin-right: 5px;
   }
+  
+  .underTextBox {
+    white-space: nowrap;
+    padding: 6px 10px;
+    position: absolute;
+    top: 56px;
+    text-align: center;
+    background-color: #717171;
+    opacity: 0.9;
+    border-radius: 4px;
+    visibility: hidden;
+    z-index: 20;
+  }
+
+  .underText {
+    font-size: 12.5px;
+    font-weight: 500;
+  }
+
+  .search:hover {
+    filter: brightness(2.3);
+  }
+
+  .search:hover .underTextBox{
+    animation: visible 0.3s;
+    visibility: visible;
+    filter: brightness(0.5)
+  }
+
+  @keyframes visible {
+    from {
+      opacity: 0
+    }
+    to {
+      opacity: 0.9
+    }
+  }
 }
+
+
+
 
 
 .box3 {
