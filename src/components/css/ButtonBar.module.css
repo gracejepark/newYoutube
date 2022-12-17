@@ -26,6 +26,7 @@
 
 
 .buttonBar {
+  width: 100%;
   padding-right: 16px;
   position: relative;
   display: flex;
@@ -37,8 +38,18 @@
 
 
 
-.btnWrap {
-  padding-left: 0px;
+.btnWrapLeft {
+  width: 1268px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btnWrapRight {
+  width: 1268px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 
@@ -152,15 +163,22 @@
 
 
 
-/* .btnBoxLeft:active .btnWrap{
-  transform: translateX(30%)
+
+.colorBoxRight:hover ~ .btnWrap{
+  /* animation: slideRight 0.2s; */
+  /* right: 0; */
 }
 
-.btnBoxRight:active .btnWrap{
-  transform: translateX(-30%)
+/* @keyframes slideRight {
+  from {
+    transform: translateX(0)
+  }
+  to {
+    transform: translateX(-100%);
+  }
 } */
 
-.colorBoxRight:hover + .btnWrap {
-  margin-left: -300px;
+.colorBoxLeft:hover ~ .btnWrap{
+  /* transform: translateX(100%);
+  transition: transform 0.2s; */
 }
-

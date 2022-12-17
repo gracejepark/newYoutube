@@ -1,6 +1,95 @@
 .totalBox {
-    width: 860px;
+    width: calc(100% - 330px);
     margin-left: 330px;
+    display: flex;
+}
+
+.totalBox2 {
+    width: calc(100% - 140px);
+    margin-left: 140px;
+    display: flex;
+}
+
+.totalBox3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sectionBox {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1613px) {
+    .sectionBox {
+        width: 1075px;
+    }
+}
+
+@media screen and (min-width: 1398px) and (max-width: 1612px) {
+    .sectionBox {
+        width: 860px;
+    }
+}
+
+@media screen and (min-width: 1310px) and (max-width: 1397px) {
+    .sectionBox {
+        width: 645px;
+    }
+}
+
+@media screen and (min-width: 1208px) and (max-width: 1309px) {
+    .sectionBox {
+        width: 860px;
+    }
+}
+
+@media screen and (min-width: 995px) and (max-width: 1207px) {
+    .sectionBox {
+        width: 645px;
+    }
+}
+
+@media screen and (min-width: 790px) and (max-width: 994px) {
+    .sectionBox {
+        width: 430px;
+    }
+}
+
+@media screen and (min-width: 687px) and (max-width: 789px) {
+    .sectionBox {
+        width: 645px;
+        align-items: center;
+    }
+
+    .rightBox {
+        display:none;
+    }
+}
+
+@media screen and (min-width: 473px) and (max-width: 686px) {
+    .sectionBox {
+        width: 430px;
+        align-items: center;
+    }
+
+    .rightBox {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .sectionBox {
+        width: 215px;
+        align-items: center;
+    }
+
+    .rightBox {
+        display:none;
+    }
 }
 
 .section {
@@ -22,6 +111,7 @@
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .title2 {
@@ -33,6 +123,7 @@
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .length {
@@ -49,16 +140,12 @@
 }
 
 .cardBox {
+    max-width: 1075px;
     display: flex;
     flex-wrap: wrap;
 }
 
 
-
-.totalBox2 {
-    width: 1075px;
-    margin-left: 140px;
-}
 
 
 .rightBox {
@@ -66,19 +153,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
-    top: 140px;
-    right: 110px;
-}
-
-.rightBox2 {
-    width: 178px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 140px;
-    right: 100px;
+    flex-shrink: 0;
+    margin: 90px 0px 0px 30px;
 }
 
 .upBox {

@@ -1,14 +1,194 @@
-.totalBox {
-    margin-left: 330px;
-}
+/* 1569px~ max-width 842px */
 
-.title {
-    font-size: 17px;
-    font-weight: 700;
-    padding-top: 30px;
-    padding-bottom: 30px;
+/* ? */
+/* 1401px ~ 1568px 토글 시 628px 842px  */
+
+/* 1355px ~ 1400px 토글 시 max-width 628px 842px*/
+/* 1310px ~ 1354px 토글 시 max-width 414px 628px */
+/* 1187px ~ 1309px max-width 628px*/
+/* 973px ~ 1186px max-width 414px */
+/* 876px ~ 972px text hidden*/
+/* 687px ~ 875px 위의 버튼 박스 넓음 + 영상 아래로 내려감*/
+/* 473px ~ 686px 위의 버튼 박스 중간 */
+/* ~ 473px 위의 버튼 박스 작음 + text hidden*/
+
+/* 1310px부터 full sidebar 나옴 */
+
+.totalBox1 {
+  margin-left: 330px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .totalBox2 {
-    margin-left: 142px;
+  margin-left: 142px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.totalBox3 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+.innerBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoBox {
+  padding-right: 400px;
+}
+
+.btnBox {
+  position: fixed;
+  right: 0;
+}
+
+
+
+
+
+.title {
+  width: 100%;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+.btnBox {
+  margin-right: 28px;
+}
+
+
+
+
+@media screen and (min-width: 1569px) {
+  .videoBox {
+    max-width: 842px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 1355px) and (max-width: 1569px) {
+  .videoBox {
+    min-width: 628px;
+  }
+}
+
+@media screen and (min-width: 1310px) and (max-width: 1554px) {
+  .videoBox {
+    min-width: 414px;
+  }
+}
+
+@media screen and (min-width: 1187px) and (max-width: 1309px) {
+  .videoBox {
+    min-width: 628px;
+  }
+}
+
+@media screen and (min-width: 973px) and (max-width: 1186px) {
+  .videoBox {
+    min-width: 414px;
+  }
+}
+
+@media screen and (min-width: 876px) and (max-width: 972px) {
+  .innerBox {
+    justify-content: flex-end;
+  }
+
+  .videoBox {
+    margin-right: 80px;
+  }
+}
+
+@media screen and (min-width: 687px) and (max-width: 875px) {
+  .videoBox {
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .totalBox2 {
+    justify-content: center;
+  }
+
+  .totalBox3 {
+    justify-content: center;
+  }
+
+  .innerBox {
+    flex-direction: column-reverse;
+    padding: 15px;
+  }
+
+  .btnBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+  }
+}
+
+@media screen and (min-width: 473px) and (max-width: 686px) {
+  .videoBox {
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .totalBox2 {
+    justify-content: center;
+  }
+
+  .totalBox3 {
+    justify-content: center;
+  }
+
+  .innerBox {
+    flex-direction: column-reverse;
+    padding: 15px;
+  }
+
+  .btnBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .videoBox {
+    width: 100%;
+    padding-right: 0px;
+  }
+
+  .totalBox2 {
+    justify-content: center;
+  }
+
+  .totalBox3 {
+    justify-content: center;
+  }
+
+  .innerBox {
+    flex-direction: column-reverse;
+    padding: 15px;
+  }
+
+  .btnBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+  }
 }

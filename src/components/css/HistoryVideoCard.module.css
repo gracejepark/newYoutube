@@ -1,9 +1,25 @@
+/* 1569px~ max-width 842px */
+
+/* ? */
+/* 1401px ~ 1568px 토글 시 628px 842px  */
+
+/* 1355px ~ 1400px 토글 시 max-width 628px 842px*/
+/* 1310px ~ 1354px 토글 시 max-width 414px 628px */
+/* 1187px ~ 1309px max-width 628px*/
+/* 973px ~ 1186px max-width 414px */
+/* 876px ~ 972px text hidden*/
+/* 687px ~ 875px 위의 버튼 박스 넓음 + 영상 아래로 내려감*/
+/* 473px ~ 686px 위의 버튼 박스 중간 */
+/* ~ 473px 위의 버튼 박스 작음 + text hidden*/
+
+/* 1310px부터 full sidebar 나옴 */
+
 .totalBox {
     /* width: 680px; */
-    width: 65%;
+    /* width: 65%; */
+    width: 100%;
     display: flex;
-    padding-top: 5px;
-    padding-right: 50px;
+    padding: 5px 50px 0px 0px;
     margin-bottom: 16px;
     cursor: pointer;
 }
@@ -12,10 +28,48 @@
     width: 246px;
     height: 138px;
     border-radius: 8px;
+    flex-shrink: 0;
 }
 
 .textBox {
+    width: calc(100% - 246px);
     margin-left: 10px;
+}
+
+@media screen and (min-width: 876px) and (max-width: 972px) {
+    .totalBox {
+        padding: 5px 0px;
+        margin-bottom: 0px;
+    }
+
+    .textBox {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 687px) and (max-width: 875px) {
+    .totalBox {
+        padding: 5px 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 473px) and (max-width: 686px) {
+    .totalBox {
+        padding: 5px 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .totalBox {
+        padding: 5px 0px;
+        margin-bottom: 0px;
+    }
+    
+    .textBox {
+        display: none;
+    }
 }
 
 .title {

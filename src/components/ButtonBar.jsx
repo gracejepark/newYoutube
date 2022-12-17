@@ -41,36 +41,50 @@ export default function ButtonBar() {
 
   const { isOpen } = useContext(MenuContext);
 
+  const [isRight, setRight] = useState(true)
+  //현재 보이는 버튼의 방향이 오른쪽인가? 를 의미함
+
 
   if (isOpen && full) {
     return (
       <div className={styles.totalBoxFull}>
         <div className={styles.buttonBar}>
-          <div className={styles.btnWrap}>
-            {
-              title.map((a, i) => { return <BarButton className={styles.barButton} title={a.title} num={i} /> })
-            }
-          </div>
-          <div className={styles.colorBoxLeft}>
-            <div className={styles.dummyBoxLeft}>
-              <div className={styles.btnBoxLeft}>
-                <button><LeftArrow /></button>
-              </div>
-              <div className={styles.textBox}>
-                <p>이전</p>
+          {isRight ?
+            <div className={styles.colorBoxRight}>
+              <div className={styles.dummyBoxRight}>
+                <div className={styles.btnBoxRight}>
+                  <button onClick={() => setRight(false)}><RightArrow /></button>
+                </div>
+                <div className={styles.textBox}>
+                  <p>다음</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={styles.colorBoxRight}>
-            <div className={styles.dummyBoxRight}>
-              <div className={styles.btnBoxRight}>
-                <button><RightArrow /></button>
-              </div>
-              <div className={styles.textBox}>
-                <p>다음</p>
+            : 
+            <div className={styles.colorBoxLeft}>
+              <div className={styles.dummyBoxLeft}>
+                <div className={styles.btnBoxLeft}>
+                  <button onClick={() => setRight(true)}><LeftArrow /></button>
+                </div>
+                <div className={styles.textBox}>
+                  <p>이전</p>
+                </div>
               </div>
             </div>
-          </div>
+          }
+          {isRight ?
+            <div className={styles.btnWrapLeft}>
+              {
+                title.map((a, i) => { return <BarButton className={styles.barButton} title={a.title} num={i} /> })
+              }
+            </div>
+            :
+            <div className={styles.btnWrapRight}>
+              {
+                title.map((a, i) => { return <BarButton className={styles.barButton} title={a.title} num={i} /> })
+              }
+            </div>
+          }
         </div>
       </div>
     )
@@ -78,31 +92,41 @@ export default function ButtonBar() {
     return (
       <div className={styles.totalBoxMedium}>
         <div className={styles.buttonBar}>
-          <div className={styles.btnWrap}>
-            {
-              title.map((a, i) => { return <BarButton className={styles.barButton} title={a.title} num={i} /> })
-            }
-          </div>
-          <div className={styles.colorBoxLeft}>
-            <div className={styles.dummyBoxLeft}>
-              <div className={styles.btnBoxLeft}>
-                <button><LeftArrow /></button>
-              </div>
-              <div className={styles.textBox}>
-                <p>이전</p>
+          {isRight ?
+            <div className={styles.colorBoxRight}>
+              <div className={styles.dummyBoxRight}>
+                <div className={styles.btnBoxRight}>
+                  <button onClick={() => setRight(false)}><RightArrow /></button>
+                </div>
+                <div className={styles.textBox}>
+                  <p>다음</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={styles.colorBoxRight}>
-            <div className={styles.dummyBoxRight}>
-              <div className={styles.btnBoxRight}>
-                <button><RightArrow /></button>
-              </div>
-              <div className={styles.textBox}>
-                <p>다음</p>
+            : <div className={styles.colorBoxLeft}>
+              <div className={styles.dummyBoxLeft}>
+                <div className={styles.btnBoxLeft}>
+                  <button onClick={() => setRight(true)}><LeftArrow /></button>
+                </div>
+                <div className={styles.textBox}>
+                  <p>이전</p>
+                </div>
               </div>
             </div>
-          </div>
+          }
+          {isRight ?
+            <div className={styles.btnWrapLeft}>
+              {
+                title.map((a, i) => { return <BarButton className={styles.barButton} title={a.title} num={i} /> })
+              }
+            </div>
+            :
+            <div className={styles.btnWrapRight}>
+              {
+                title.map((a, i) => { return <BarButton className={styles.barButton} title={a.title} num={i} /> })
+              }
+            </div>
+          }
         </div>
       </div>
     )
@@ -110,31 +134,41 @@ export default function ButtonBar() {
     return (
       <div className={styles.totalBoxMinimum}>
         <div className={styles.buttonBar}>
-          <div className={styles.btnWrap}>
-            {
-              title.map((a, i) => { return <BarButton className={styles.barButton} title={a.title} num={i} /> })
-            }
-          </div>
-          <div className={styles.colorBoxLeft}>
-            <div className={styles.dummyBoxLeft}>
-              <div className={styles.btnBoxLeft}>
-                <button><LeftArrow /></button>
-              </div>
-              <div className={styles.textBox}>
-                <p>이전</p>
+          {isRight ?
+            <div className={styles.colorBoxRight}>
+              <div className={styles.dummyBoxRight}>
+                <div className={styles.btnBoxRight}>
+                  <button onClick={() => setRight(false)}><RightArrow /></button>
+                </div>
+                <div className={styles.textBox}>
+                  <p>다음</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className={styles.colorBoxRight}>
-            <div className={styles.dummyBoxRight}>
-              <div className={styles.btnBoxRight}>
-                <button><RightArrow /></button>
-              </div>
-              <div className={styles.textBox}>
-                <p>다음</p>
+            : <div className={styles.colorBoxLeft}>
+              <div className={styles.dummyBoxLeft}>
+                <div className={styles.btnBoxLeft}>
+                  <button onClick={() => setRight(true)}><LeftArrow /></button>
+                </div>
+                <div className={styles.textBox}>
+                  <p>이전</p>
+                </div>
               </div>
             </div>
-          </div>
+          }
+          {isRight ?
+            <div className={styles.btnWrapLeft}>
+              {
+                title.map((a, i) => { return <BarButton className={styles.barButton} title={a.title} num={i} /> })
+              }
+            </div>
+            :
+            <div className={styles.btnWrapRight}>
+              {
+                title.map((a, i) => { return <BarButton className={styles.barButton} title={a.title} num={i} /> })
+              }
+            </div>
+          }
         </div>
       </div>
     )
