@@ -1,136 +1,390 @@
+/* 1310px ~ max-width: 905px (full page 마지노)*/
+/* 1081px ~ 1310px max-width: 811px*/
+/* 791px ~ 1080px 왼쪽 창 위로 올라감 및 썸네일 왼쪽에 위치 max-width: 756px (medium page 마지노)*/
+/* 720px ~ 790px max-width: 750px */
+/* 285px ~ 719px max-width: 679px */
+/* ~284px text hidden */
+
+/*  margin-right: 24px  */
+
+
 .leftBox {
-    width: 360px;
-    height: 100%;
-    position: fixed;
-    top: 80px;
-    left: 260px;
-    display: flex;
-    flex-shrink: 0;
-    border-radius: 15px;
-    overflow: hidden;
+  width: 360px;
+  height: 100%;
+  position: fixed;
+  top: 80px;
+  left: 260px;
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .leftBox2 {
-    width: 360px;
-    height: 100%;
-    position: fixed;
-    top: 80px;
-    left: 95px;
-    display: flex;
-    flex-shrink: 0;
-    border-radius: 15px;
-    overflow: hidden;
+  width: 360px;
+  height: 100%;
+  position: fixed;
+  top: 80px;
+  left: 95px;
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.leftBox3 {
+  width: 100%;
+  height: 324px;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-shrink: 0;
+  overflow: hidden;
 }
 
 .backImg {
-    width: 500px;
-    height: 100%;
-    filter: blur(30px);
-    -webkit-filter: blur(30px);;
+  width: 500px;
+  height: 100%;
+  filter: blur(30px);
+  -webkit-filter: blur(30px);
+  ;
 }
 
 .leftBoxCont {
-    width: 360px;
-    height: 100%;
-    position: fixed;
-    top: 80px;
-    left: 260px;
-    border-radius: 15px;
-    background-image: linear-gradient(0deg, #0F0F0F 12%, #00ff0000)
+  width: 360px;
+  height: 100%;
+  position: fixed;
+  top: 80px;
+  left: 260px;
+  border-radius: 15px;
+  background-image: linear-gradient(0deg, #0F0F0F 12%, #00ff0000)
 }
 
 .leftBoxCont2 {
-    width: 360px;
-    height: 100%;
-    position: fixed;
-    top: 80px;
-    left: 95px;
-    border-radius: 15px;
-    background-image: linear-gradient(0deg, #0F0F0F 12%, #00ff0000)
+  width: 360px;
+  height: 100%;
+  position: fixed;
+  top: 80px;
+  left: 95px;
+  border-radius: 15px;
+  background-image: linear-gradient(0deg, #0F0F0F 12%, #00ff0000)
+}
+
+.leftBoxCont3 {
+  width: 100%;
+  height: 324px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(0deg, #0F0F0F 3%, #00ff0000)
 }
 
 .img {
-    max-width: 312px;
-    margin: 0 auto;
-    margin-top: 22px;
-    border-radius: 10px;
+  max-width: 312px;
+  margin: 0 auto;
+  margin-top: 22px;
+  border-radius: 10px;
 }
 
 .title {
-    margin-top: 15px;
-    margin-left: 23px;
-    font-size: 29px;
-    font-weight: 900
+  margin: 15px 0px 0px 23px;
+  font-size: 29px;
+  font-weight: 900
+}
+
+.underTitleBox {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 23px;
+  margin: 15px 0px;
 }
 
 .name {
-    font-size: 15px;
-    font-weight: 700;
-    margin-top: 15px;
-    margin-left: 23px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .subText {
-    font-size: 12px;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-left: 23px;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 .etcBtn {
-    width: 36px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-left: 23px;
-    border-radius: 36px;
-    background-color: rgba(255,255,255,0.1);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 36px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .btnBox {
-    margin: 0 auto;
-    padding-left: 23px;
-    padding-right: 23px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 600
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 23px;
+  padding-right: 23px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600
 }
 
 .btnLeft {
-    width: 48%;
-    height: 38px;
-    padding-left: 27px;
-    padding-right: 35px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-    background-color: white;
-    border-radius: 38px;
+  width: 48%;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+  border-radius: 38px;
 }
 
 .btnRight {
-    width: 48%;
-    height: 38px;
-    padding-left: 42px;
-    padding-right: 45px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgba(255,255,255,0.1);
-    border-radius: 38px;
+  width: 48%;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 38px;
 }
 
+.btnText {
+  margin-left: 10px;
+}
+
+
+
+
+
+
 .rightBox {
-    margin-top: 40px;
-    margin-left: 620px;
+  max-width: 905px;
+  margin-top: 40px;
+  margin-left: 620px;
+  padding-bottom: 20px;
 }
 
 .rightBox2 {
-    margin-top: 40px;
-    margin-left: 455px;
+  max-width: 905px;
+  margin-top: 40px;
+  margin-left: 455px;
+  padding-bottom: 20px;
 }
+
+
+
+
+
+@media screen and (min-width: 1081px) and (max-width: 1329px) {
+  .rightBox {
+    max-width: 811px;
+  }
+
+  .rightBox2 {
+    max-width: 811px;
+  }
+}
+
+@media screen and (min-width: 790px) and (max-width: 1080px) {
+  .leftBox2 {
+    width: calc(100% - 74px);
+    height: 324px;
+    position: relative;
+    top: 0;
+    left: 74px;
+    flex-shrink: 0;
+    border-radius: 0;
+  }
+
+  .backImg {
+    width: 100%;
+    height: 324px;
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+  }
+
+  .leftBoxCont2 {
+    width: 100%;
+    height: 324px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    background-image: linear-gradient(0deg, #0F0F0F 3%, #00ff0000)
+  }
+
+  .dummyBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+  }
+
+  .img {
+    margin: 0;
+  }
+
+  .textBox {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0px 24px;
+  }
+
+  .title {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .underTitleBox {
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 10px 0px;
+  }
+
+  .rightBox {
+    max-width: 756px;
+    margin-top: 330x;
+    margin-left: 74px;
+  }
+
+  .rightBox2 {
+    max-width: 756px;
+    margin-left: 74px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 789px) {
+  .backImg {
+    width: 100%;
+    height: 324px;
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+  }
+
+  .dummyBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+  }
+
+  .img {
+    margin: 0;
+  }
+
+  .textBox {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0px 24px;
+  }
+
+  .title {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .underTitleBox {
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 10px 0px;
+  }
+
+  .rightBox {
+    max-width: 750px;
+    margin-top: 330x;
+  }
+
+  .rightBox2 {
+    max-width: 750px;
+    margin-top: 330x;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .leftBox3 {
+    height: 448px;
+  }
+
+  .backImg {
+    width: 100%;
+    height: 448px;
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+  }
+
+  .leftBoxCont3 {
+    height: 448px;
+  }
+  
+  .dummyBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 24px;
+  }
+
+  .title {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .underTitleBox {
+    height: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 10px 0px;
+  }
+
+  .rightBox {
+    max-width: 679px;
+  }
+
+  .rightBox2 {
+    max-width: 679px;
+  }
+}
+
+/* @media screen and (max-width: 284px) {
+  .leftBox2 {
+    width: 100%;
+    height: 448px;
+    top: 56px;
+    left: 74px;
+    right: 0;
+    flex-shrink: 0;
+    border-radius: 0;
+  }
+
+  .backImg {
+    width: 100%;
+    height: 448px;
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+    ;
+
+  }
+
+  .leftBoxCont2 {
+    width: 100%;
+    height: 448px;
+    top: 56px;
+    left: 74px;
+    right: 0;
+    border-radius: 0;
+    background-image: linear-gradient(0deg, #0F0F0F 3%, #00ff0000)
+  }
+} */

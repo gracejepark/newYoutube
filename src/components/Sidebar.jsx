@@ -259,6 +259,14 @@ export default function Sidebar() {
             <div className={styles.hideBox}></div>
           </div>
         </div>
+
+        <div className={styles.subSidebar}>
+          <ul className={styles.subSidebarUl}>
+            {
+              miniBlock.map((a, i) => { return <SidebarBlock children={a} key={i} sub={'sub'} /> })
+            }
+          </ul>
+        </div>
       </>
     )
   } else if (isOpen && minimum) {

@@ -31,10 +31,6 @@ export default function History() {
   })
 
 
-  const Upside = useMediaQuery({
-    query: "(max-width: 875px)"
-  })
-
   if(isOpen && full) {
     return (
       <>
