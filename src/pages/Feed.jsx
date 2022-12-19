@@ -110,8 +110,8 @@ export default function Feed() {
 
             <div className={styles.section}>
               <div className={styles.titleBox}>
-                <h2 className={styles.title}><History /> 기록</h2>
-                <button className={styles.viewMore}>모두 보기</button>
+                <h2 className={styles.title} onClick={() => navigate('/youtube/feed/history')}><History /> 기록</h2>
+                <button className={styles.viewMore} onClick={() => navigate('/youtube/feed/history')}>모두 보기</button>
               </div>
               <div className={styles.cardBox}>
                 {
@@ -125,9 +125,9 @@ export default function Feed() {
             <div className={styles.section}>
               <div className={styles.titleBox}>
                 {
-                  likes && <h2 className={styles.title2}><Liekd /> 좋아요 표시한 동영상 <span className={styles.length}>{likes.length}</span></h2>
+                  likes && <h2 className={styles.title2} onClick={() => navigate('/youtube/feed/liked')}><Liekd /> 좋아요 표시한 동영상 <span className={styles.length}>{likes.length}</span></h2>
                 }
-                <button className={styles.viewMore}>모두 보기</button>
+                <button className={styles.viewMore} onClick={() => navigate('/youtube/feed/liked')}>모두 보기</button>
               </div>
               <div className={styles.cardBox}>
                 {
@@ -175,8 +175,8 @@ export default function Feed() {
           <div className={styles.sectionBox}>
             <div className={styles.section}>
               <div className={styles.titleBox}>
-                <h2 className={styles.title}><History /> 기록</h2>
-                <button className={styles.viewMore}>모두 보기</button>
+                <h2 className={styles.title} onClick={() => navigate('/youtube/feed/history')}><History /> 기록</h2>
+                <button className={styles.viewMore} onClick={() => navigate('/youtube/feed/history')}>모두 보기</button>
               </div>
               <div className={styles.cardBox}>
                 {
@@ -190,9 +190,9 @@ export default function Feed() {
             <div className={styles.section}>
               <div className={styles.titleBox}>
                 {
-                  likes && <h2 className={styles.title2}><Liekd /> 좋아요 표시한 동영상 <span className={styles.length}>{likes.length}</span></h2>
+                  likes && <h2 className={styles.title2} onClick={() => navigate('/youtube/feed/liked')}><Liekd /> 좋아요 표시한 동영상 <span className={styles.length}>{likes.length}</span></h2>
                 }
-                <button className={styles.viewMore}>모두 보기</button>
+                <button className={styles.viewMore} onClick={() => navigate('/youtube/feed/liked')}>모두 보기</button>
               </div>
               <div className={styles.cardBox}>
                 {

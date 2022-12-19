@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import { addLiked } from "../../api/firebase"
 import styles from './css/DetailButton.module.css'
 
-export default function DetailButton({videoId, video, text, icon, likeCount, margin, subIcon1, subIcon2}) {
+export default function DetailButton({videoId, video, text, icon, likeCount, subIcon1, subIcon2}) {
 
   const [isOpen, setOpen] = useState('false')
 
@@ -37,9 +37,45 @@ export default function DetailButton({videoId, video, text, icon, likeCount, mar
       </div>
     </div>
     )
-  } else if (margin) {
+  } else if (text == '공유') {
     return (
     <div className={styles.totalBtnBox}>
+      <button className={styles.button}>
+        {icon}
+        <p className={styles.marginText}>{text}</p>
+      </button>
+      <div className={styles.underTextBox}>
+        <p className={styles.underText}>{text}</p>
+      </div>
+    </div>
+    )
+  } else if (text == '오프라인 저장') {
+    return (
+    <div className={styles.totalBtnBoxOffSave}>
+      <button className={styles.button}>
+        {icon}
+        <p className={styles.marginText}>{text}</p>
+      </button>
+      <div className={styles.underTextBox}>
+        <p className={styles.underText}>{text}</p>
+      </div>
+    </div>
+    )
+  } else if (text == '클립') {
+    return (
+    <div className={styles.totalBtnBoxClip}>
+      <button className={styles.button}>
+        {icon}
+        <p className={styles.marginText}>{text}</p>
+      </button>
+      <div className={styles.underTextBox}>
+        <p className={styles.underText}>{text}</p>
+      </div>
+    </div>
+    )
+  } else if (text == '저장') {
+    return (
+    <div className={styles.totalBtnBoxSave}>
       <button className={styles.button}>
         {icon}
         <p className={styles.marginText}>{text}</p>

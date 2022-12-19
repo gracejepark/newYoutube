@@ -1,6 +1,8 @@
 import React from "react"
 import styles from './css/Button.module.css'
 
+import profile from '../../svg/IMG_4564.jpeg'
+
 export default function Button({text, icon, q}) {
 
   if(q) {
@@ -26,7 +28,7 @@ export default function Button({text, icon, q}) {
     )
   } else {
     return (
-      <div className={styles.profile}></div>
+      <div className={styles.profile}><img src={profile}/></div>
     )
   }
 }

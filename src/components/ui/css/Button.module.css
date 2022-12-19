@@ -102,6 +102,6 @@
   width: 32px;
   height: 32px;
   margin: 1px 14px 1px 14px;
-  background-color: dimgray;
   border-radius: 32px;
+  overflow: hidden;
 }

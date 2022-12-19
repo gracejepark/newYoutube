@@ -160,25 +160,3 @@
 .dummyBoxRight:hover .textBox {
   visibility: visible;
 }
-
-
-
-
-.colorBoxRight:hover ~ .btnWrap{
-  /* animation: slideRight 0.2s; */
-  /* right: 0; */
-}
-
-/* @keyframes slideRight {
-  from {
-    transform: translateX(0)
-  }
-  to {
-    transform: translateX(-100%);
-  }
-} */
-
-.colorBoxLeft:hover ~ .btnWrap{
-  /* transform: translateX(100%);
-  transition: transform 0.2s; */
-}

@@ -1,7 +1,7 @@
 .totalBox {
+    height: 99px;
     display: flex;
-    padding-top: 5px;
-    padding-right: 50px;
+    padding: 5px 50px 0px 0px;
     cursor: pointer;
 }
 
@@ -13,6 +13,8 @@
 
 .textBox {
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -34,6 +36,8 @@
 }
 
 .subText {
+    height: 18px;
+    overflow: hidden;
     font-size: 12px;
     font-weight: 500;
     color: gray
