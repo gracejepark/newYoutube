@@ -12,6 +12,12 @@
   justify-content: center;
 }
 
+@media screen and (min-width: 1310px) and (max-width: 1570px) {
+ .totalBox {
+  justify-content: flex-start;
+ }
+}
+
 .totalBoxCol {
   display: flex;
   flex-direction: column;
@@ -184,7 +190,7 @@
 
 
 .rightBox {
-  max-width: 426px;
+  max-width: 500px;
   min-width: 300px;
   padding: 24px 24px 0px 0px;
 }
